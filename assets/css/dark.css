@@ -1,0 +1,402 @@
+body.dark {
+    background: #222222;
+}
+
+body.dark nav#layout-mainmenu {
+    background-color: #2f2f2f;
+    box-shadow: inset 0px 1px 20px #5a5a5a;
+}
+
+body.dark .callout.callout-info >.content {
+    background: inherit;
+    color: #e8e8e8;
+    border: solid 2px #b15308;
+}
+body.dark .close {
+    color: #fff;
+}
+body.dark .close:hover,
+body.dark .close:focus {
+    color: #fff;
+}
+
+
+
+/* Панель управления */
+body.dark .report-container > ul .item {
+    background: #6f6f6f;
+}
+body.dark .report-widget {
+    background: #333333;
+}
+body.dark .report-widget h3 {
+    color: #c8c8c8;
+}
+
+body.dark .widget-welcome .welcome-message {
+    color: #bbbbbb;
+}
+body.dark .widget-welcome .welcome-message strong {
+    color: #c8c8c8;
+}
+
+body.dark .control-status-list >ul li {
+    color: #bbb;
+    border-bottom: 1px solid #6f6f6f;
+}
+body.dark .control-status-list >ul li:last-child {
+    border-bottom: none;
+}
+body.dark .control-status-list >ul li .status-text.success {
+    color: #31ac5f;
+}
+body.dark .text-success {
+    color: #31ac5f;
+}
+body.dark .control-status-list >ul li .status-text.warning {
+    color: #ce9178;
+}
+body.dark .report-widget a:not(.btn) {
+    color: #569cd6;
+}
+body.dark .report-widget a:not(.btn).status-label.primary {
+    color: white;
+}
+/* END - Панель управления */
+
+
+
+/* CMS */
+body.dark .control-scrollpanel {
+    background: #333333;
+    border-right: solid 1px #565656;
+    border-left: solid 1px #212121;
+}
+body.dark .control-filelist ul li a:hover {
+    background: #292929;
+}
+body.dark .control-filelist ul li a span.title {
+    color: #ce9178;
+}
+body.dark .control-filelist ul li.group >h4 a,
+body.dark .control-filelist ul li.group >div.group >h4 a {
+    color: #d16969;
+}
+body.dark .control-filelist ul li a span.description strong {
+    color: #569cd6;
+}
+body.dark .control-filelist ul li.active >a,
+body.dark .control-filelist ul li.active >a:hover {
+    background: #232323;
+}
+
+body.dark .layout.control-tabs.oc-logo-transparent:not(.has-tabs):after,
+body.dark .flex-layout-column.oc-logo-transparent:not(.has-tabs):after,
+body.dark .layout-cell.oc-logo-transparent:after {
+    background: #484848a8;
+}
+body.dark .fancy-layout .control-tabs.has-tabs >div.tab-content,
+body.dark .fancy-layout.control-tabs.has-tabs >div.tab-content {
+    background: #333333;
+}
+body.dark .fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a span.title,
+body.dark .fancy-layout.control-tabs.primary-tabs >div >ul.nav-tabs >li.active a span.title {
+    background: #333333;
+}
+body.dark .fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a span.title:before,
+body.dark .fancy-layout.control-tabs.primary-tabs >div >ul.nav-tabs >li.active a span.title:before,
+body.dark .fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a span.title:after,
+body.dark .fancy-layout.control-tabs.primary-tabs >div >ul.nav-tabs >li.active a span.title:after {
+    background: #333333;
+}
+body.dark .fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li a span.title,
+body.dark .fancy-layout.control-tabs.primary-tabs >div >ul.nav-tabs >li a span.title {
+    background: #383b3d;
+}
+body.dark #layout-side-panel div.control-toolbar input.form-control {
+    box-shadow: none;
+}
+/* END - CMS */
+
+
+
+/* Меню плагинов */
+body.dark #layout-sidenav li.active {
+    margin-left: 5px;
+    background: black;
+    border-left: solid 3px #bf4b00;
+}
+body.dark #layout-sidenav li.active a:hover {
+    background: black;
+}
+body.dark #layout-sidenav ul li a:hover {
+    background: #333333;
+}
+/* End - Меню плагинов */
+
+
+
+/* Список */
+body.dark .control-filter {
+    color: #fff;
+    background-color: #416080;
+    border-top: 1px solid #34495e;
+    border-bottom: 1px solid #34495e;
+}
+body.dark table.table.data {
+    border-bottom: 1px solid #3e71a5;
+}
+body.dark table.table.data thead {
+    background: #34495e;
+}
+body.dark table.table.data tbody tr {
+    background: #2d2d2d;
+}
+body.dark table.table.data tbody td,
+body.dark table.table.data tbody th {
+    color: #ce9178;
+    border-top: 1px solid #34495e;
+}
+
+body.dark table.table.data tbody tr.rowlink:not(.nolink):active td {
+    background: #395169 !important;
+    color: #fff;
+}
+body.dark table.table.data tbody tr.rowlink:not(.nolink):hover td,
+body.dark table.table.data tbody tr:not(.no-data).selected td {
+    background: #395169 !important;
+    color: #fff;
+}
+body.dark table.table.data tbody tr:nth-child(even) td,
+body.dark table.table.data tbody tr:nth-child(even) th {
+    background-color: #353535;
+}
+body.dark table.table.data thead td >a,
+body.dark table.table.data thead th >a,
+body.dark table.table.data thead td >span,
+body.dark table.table.data thead th >span {
+    color: #cad47c;
+}
+body.dark .control-list table.table.data .list-setup a {
+    color: #cad47c;
+}
+body.dark table.table.data thead td >a:hover,
+body.dark table.table.data thead th >a:hover,
+body.dark table.table.data thead td >span:hover,
+body.dark table.table.data thead th >span:hover {
+    color: #daeb60;
+}
+
+body.dark .control-filter a,
+body.dark .control-filter .custom-checkbox label {
+    color: #c3c3c3;
+}
+body.dark .control-filter >.filter-scope:hover,
+body.dark .control-filter >.filter-scope.active,
+body.dark .control-filter >.filter-scope:hover.custom-checkbox label,
+body.dark .control-filter >.filter-scope.active.custom-checkbox label {
+    color: #cddc39;
+}
+body.dark .control-filter >.filter-scope:hover .filter-label,
+body.dark .control-filter >.filter-scope.active .filter-label {
+    color: #cddc39;
+}
+body.dark .control-filter >.filter-has-popover:hover {
+    color: #ffeb3b;
+}
+body.dark .control-filter >.filter-has-popover:hover .filter-label {
+    color: #cddc39;
+}
+
+
+
+body.dark table.table.data thead td,
+body.dark table.table.data thead th {
+    border-top: 1px solid #0180ff !important;
+    border-bottom: 1px solid #0180ff !important;
+    border-color: #0180ff;
+}
+body.dark table.table.data .list-checkbox {
+    border-right: 1px solid #0180ff;
+}
+
+
+body.dark .table >thead >tr >td.active,
+body.dark .table >tbody >tr >td.active,
+body.dark .table >tfoot >tr >td.active,
+body.dark .table >thead >tr >th.active,
+body.dark .table >tbody >tr >th.active,
+body.dark .table >tfoot >tr >th.active,
+body.dark .table >thead >tr.active >td,
+body.dark .table >tbody >tr.active >td,
+body.dark .table >tfoot >tr.active >td,
+body.dark .table >thead >tr.active >th,
+body.dark .table >tbody >tr.active >th,
+body.dark .table >tfoot >tr.active >th {
+    background-color: #54210a;
+}
+body.dark table.table.data tbody tr.active:nth-child(even) td,
+body.dark table.table.data tbody tr.active:nth-child(even) th {
+    background-color: #491d08;
+}
+
+body.dark th.sort-desc.active.list-cell-name-id.list-cell-type-text {
+    background: #34495e;
+}
+body.dark .select2-container--default .select2-selection {
+    background-color: #505050;
+    border: 1px solid #909090;
+    box-shadow: none;
+}
+body.dark .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #f9e23d;
+}
+body.dark .select2-container--default .select2-selection--single .select2-selection__arrow b:before {
+    color: #f0f8ff;
+}
+body.dark .field-checkboxlist .field-checkboxlist-inner {
+    background-color: #505050;
+    border: 1px solid #909090;
+    box-shadow: none;
+}
+body.dark .custom-checkbox label:before,
+body.dark .custom-radio label:before {
+    background-color: #8a8a8a;
+    border: 1px solid #d6d6d6;
+    box-shadow: none;
+}
+
+
+
+/* breadcrumb */
+body.dark .control-breadcrumb {
+    background-color: #404040;
+}
+body.dark .control-breadcrumb li {
+    background-color: #1d1d1d;
+}
+body.dark .control-breadcrumb li:before {
+    border-left: 15px solid #404040;
+}
+body.dark .control-breadcrumb li:after {
+    border-left: 15px solid #1d1d1d;
+}
+body.dark .control-breadcrumb li:last-child {
+    background-color: transparent;
+    color: #c8c8c8;
+}
+/* END - breadcrumb */
+
+
+
+/* Создать - Редактировать */
+body.dark label {
+    color: #c8c8c8;
+}
+body.dark .form-control {
+    color: #f9e23d;
+    background-color: #505050;
+    border: 1px solid #909090;
+    box-shadow: none;
+}
+body.dark .field-mediafinder.style-image-single .find-button {
+    background: #43474a;
+    border: 2px dotted #b9b9b9;
+}
+body.dark .field-mediafinder.style-image-single .find-button .find-button-icon:before {
+    color: aliceblue;
+}
+body.dark .field-codeeditor {
+    border: 2px solid #27709c;
+}
+body.dark .help-block {
+    color: #d7ba7d;
+}
+body.dark .field-repeater li.field-repeater-item {
+    background: #313131;
+    border: 1px solid #5f5f5f;
+    box-shadow: none;
+}
+body.dark .field-fileupload.style-image-multi .upload-object {
+    background: darkslategrey;
+    border: 1px solid #7b7b7b;
+}
+body.dark .field-fileupload .upload-object h4 {
+    color: #d7ba7d;
+}
+/* ___вкладки */
+body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:before,
+body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:before,
+body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:before,
+body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:after,
+body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:after,
+body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:after {
+    background: #383b3d;
+}
+body.dark .control-tabs.primary-tabs >ul.nav-tabs >li.active a >span.title:before,
+body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title:before,
+body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li.active a >span.title:before,
+body.dark .control-tabs.primary-tabs >ul.nav-tabs >li.active a >span.title:after,
+body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title:after,
+body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li.active a >span.title:after {
+    border-color: #569cd6;
+}
+body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:before,
+body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:before,
+body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:before,
+body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:after,
+body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:after,
+body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:after {
+    border-top: 2px solid #569cd6;
+}
+body.dark .control-tabs.primary-tabs >ul.nav-tabs >li.active a >span.title span,
+body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title span,
+body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li.active a >span.title span {
+    border-top-color: #569cd6;
+}
+body.dark .control-tabs.primary-tabs >ul.nav-tabs >li.active a:before,
+body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a:before,
+body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li.active a:before {
+    background-color: #569cd6;
+}
+body.dark .control-tabs.primary-tabs >ul.nav-tabs:before,
+body.dark .control-tabs.primary-tabs >div >ul.nav-tabs:before,
+body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs:before {
+    border-bottom: 2px solid #569cd6;
+}
+body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:before,
+body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:before,
+body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:before {
+    border-left: 2px solid #569cd6;
+}
+body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:after,
+body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:after,
+body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:after {
+    border-right: 2px solid #569cd6;
+}
+/* body.dark .control-tabs >ul.nav-tabs >li a >span.title >span,
+body.dark .control-tabs >div >ul.nav-tabs >li a >span.title >span,
+body.dark .control-tabs >div >div >ul.nav-tabs >li a >span.title >span {
+    border-top: 2px solid #569cd6;
+} */
+body.dark .control-tabs >ul.nav-tabs >li.active a,
+body.dark .control-tabs >div >ul.nav-tabs >li.active a,
+body.dark .control-tabs >div >div >ul.nav-tabs >li.active a {
+    color: #f9e23d;
+}
+
+body.dark .layout-cell.w-300.form-sidebar.control-scrollpanel {
+    background-color: #2d2d2d;
+}
+/* END - Создать - Редактировать */
+
+
+
+/* Фронтенд темы */
+body.dark .theme-selector-layout .theme-description h3 {
+    color: #f9e23d;
+}
+body.dark .theme-selector-layout .theme-description p.description {
+    color: #c5c5c5;
+}
+/* End - Фронтенд темы */
