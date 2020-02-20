@@ -6,6 +6,9 @@ body.dark nav#layout-mainmenu {
     background-color: #2f2f2f;
     box-shadow: inset 0px 1px 20px #5a5a5a;
 }
+body.dark .bg-p {
+    background-color: #3e3e3e;
+}
 
 body.dark .callout.callout-info >.content {
     background: inherit;
@@ -20,9 +23,17 @@ body.dark .close:focus {
     color: #fff;
 }
 
+body.dark .table-striped.widget-calcs {
+    color: #bbb;
+}
+body.dark .table-striped >tbody >tr:nth-child(odd) >td {
+    background-color: #3c3c3c;
+}
+body.dark .table >tbody >tr >td {
+    border-top: 1px solid #616161;
+}
 
-
-/* Панель управления */
+/* Dashboard - Панель управления */
 body.dark .report-container > ul .item {
     background: #6f6f6f;
 }
@@ -60,9 +71,13 @@ body.dark .report-widget a:not(.btn) {
     color: #569cd6;
 }
 body.dark .report-widget a:not(.btn).status-label.primary {
-    color: white;
+    color: #fff;
 }
-/* END - Панель управления */
+
+body.dark .control-chart div.chart-legend table {
+    color: #bbb;
+}
+/* END Dashboard - Панель управления */
 
 
 
@@ -136,7 +151,7 @@ body.dark #layout-sidenav ul li a:hover {
 
 
 
-/* Список */
+/* List - Список */
 body.dark .control-filter {
     color: #fff;
     background-color: #416080;
@@ -318,7 +333,7 @@ body.dark .field-repeater li.field-repeater-item {
     box-shadow: none;
 }
 body.dark .field-fileupload.style-image-multi .upload-object {
-    background: darkslategrey;
+    background: #313131;
     border: 1px solid #7b7b7b;
 }
 body.dark .field-fileupload .upload-object h4 {
