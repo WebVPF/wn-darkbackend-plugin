@@ -415,3 +415,20 @@ body.dark .theme-selector-layout .theme-description p.description {
     color: #c5c5c5;
 }
 /* End - Фронтенд темы */
+
+/* Buttons and inputs */
+body.dark .field-recordfinder .btn {
+  color: #fff;
+}
+body.dark .form-control.icon {
+  background-image: url('../images/bitmap-icons_dark.png');
+}
+
+/* Modals */
+body.dark .modal-content {
+  background: #222222;
+  color: #c8c8c8;
+}
+body.dark .modal-header {
+  color: #e0dfdf;
+}
