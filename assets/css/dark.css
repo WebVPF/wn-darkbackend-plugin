@@ -315,6 +315,12 @@ body.dark .form-control {
     border: 1px solid #909090;
     box-shadow: none;
 }
+body.dark .form-control[disabled],
+body.dark .form-control[readonly],
+body.dark fieldset[disabled] .form-control {
+  background-color: #606060 !important;
+  color: #ccb931;
+}
 body.dark .field-mediafinder.style-image-single .find-button {
     background: #43474a;
     border: 2px dotted #b9b9b9;
@@ -424,7 +430,19 @@ body.dark .field-recordfinder .btn {
 body.dark .form-control.icon {
   background-image: url('../images/bitmap-icons_dark.png');
 }
-
+body.dark .select2-dropdown {
+  color: #c8c8c8;
+  background-color: #505050;
+  /* border: 1px solid #909090; */
+}
+body.dark .select2-container--default .select2-results__option[aria-selected="true"] {
+  color: #fff;
+  background-color: #707070;
+}
+body.dark .select2-container--default .select2-search--dropdown .select2-search__field {
+  color: #c8c8c8;
+  background-color: #505050;
+}
 /* Modals */
 body.dark .modal-content {
   background: #222222;
