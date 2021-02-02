@@ -128,7 +128,7 @@ body.dark .fancy-layout.control-tabs.primary-tabs >div >ul.nav-tabs >li.active a
 }
 body.dark .fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li a span.title,
 body.dark .fancy-layout.control-tabs.primary-tabs >div >ul.nav-tabs >li a span.title {
-    background: #383b3d;
+    background: #3f4244;
 }
 body.dark #layout-side-panel div.control-toolbar input.form-control {
     box-shadow: none;
@@ -149,6 +149,13 @@ body.dark .control-assetlist p.parent a.link:hover {
 body.dark .control-filelist.component-list ul li div.group {
     background: #383838;
     border-top: 1px solid #5f5f5f;
+}
+body.dark .control-filelist p.no-data {
+    color: #d16969;
+}
+body.dark .control-assetlist p.parent.parent a.link {
+    background-color: #000;
+    color: #ff4500;
 }
 /* END - CMS */
 
@@ -175,6 +182,12 @@ body.dark div.panel.border-right {
 body.dark div.panel.border-bottom {
     border-bottom: 1px solid #7b7b7b;
 }
+body.dark div.panel.triangle-down:after {
+    border-top: 8px solid #7b7b7b;
+}
+body.dark div.panel.triangle-down:before {
+    border-top: 9px solid #7b7b7b;
+}
 body.dark div[data-control="media-manager"] .sidebar-image-placeholder {
     box-sizing: content-box;
     background-image: -webkit-linear-gradient(45deg,#efefef 25%,transparent 25%,transparent 75%,#efefef 75%,#efefef),
@@ -182,6 +195,13 @@ body.dark div[data-control="media-manager"] .sidebar-image-placeholder {
     background-position: 0 0,10px 10px;
     background-size: 21px 21px;
     background-color: #d2d2d2;
+}
+body.dark div[data-control="media-manager"] .sidebar-image-placeholder i.icon-level-up {
+    color: #d16969;
+}
+body.dark div[data-control="media-manager"] .sidebar-image-placeholder p {
+    color: #d16969;
+    background: #fff;
 }
 /* END - backend/media */
 
@@ -407,7 +427,7 @@ body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:be
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:after {
-    background: #383b3d;
+    background: #3f4244;
 }
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li.active a >span.title:before,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title:before,
@@ -415,7 +435,7 @@ body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li.active a >span.t
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li.active a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li.active a >span.title:after {
-    border-color: #569cd6;
+    border-color: #333;
 }
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:before,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:before,
@@ -423,12 +443,13 @@ body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:be
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:after {
-    border-top: 2px solid #569cd6;
+    border-top: 2px solid #333;
 }
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li.active a >span.title span,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title span,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li.active a >span.title span {
-    border-top-color: #569cd6;
+    border-top-color: #333;
+    color: #d16969;
 }
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li.active a:before,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a:before,
@@ -438,23 +459,18 @@ body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li.active a:before 
 body.dark .control-tabs.primary-tabs >ul.nav-tabs:before,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs:before,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs:before {
-    border-bottom: 2px solid #569cd6;
+    border-bottom: 2px solid #333;
 }
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:before,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:before,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:before {
-    border-left: 2px solid #569cd6;
+    border-left: 2px solid #333;
 }
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:after {
-    border-right: 2px solid #569cd6;
+    border-right: 2px solid #333;
 }
-/* body.dark .control-tabs >ul.nav-tabs >li a >span.title >span,
-body.dark .control-tabs >div >ul.nav-tabs >li a >span.title >span,
-body.dark .control-tabs >div >div >ul.nav-tabs >li a >span.title >span {
-    border-top: 2px solid #569cd6;
-} */
 body.dark .control-tabs >ul.nav-tabs >li.active a,
 body.dark .control-tabs >div >ul.nav-tabs >li.active a,
 body.dark .control-tabs >div >div >ul.nav-tabs >li.active a {
