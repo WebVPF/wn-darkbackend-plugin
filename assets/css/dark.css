@@ -157,6 +157,29 @@ body.dark .control-assetlist p.parent.parent a.link {
     background-color: #000;
     color: #ff4500;
 }
+body.dark .component-list .components div.layout div.layout-row div.layout-cell {
+    border-top: 1px solid #777777;
+    background: #525252;
+}
+body.dark div.control-componentlist div.components div.layout-cell {
+    background: #525252;
+}
+body.dark div.control-componentlist div.components div.layout-cell:hover {
+    background: #333;
+}
+body.dark div.control-componentlist div.components div.layout-cell > div.popover-highlight {
+    background: #333 !important;
+}
+body.dark div.control-componentlist div.components div.layout-cell > div:before,
+body.dark .component-list .components div.layout-cell > div span.name {
+    color: #ff7f50;
+}
+body.dark .component-list .components div.layout-cell > div span.description {
+    color: #deb887;
+}
+body.dark div.control-componentlist div.components div.layout-cell > div span.alias {
+    color: #7fffd4;
+}
 /* END - CMS */
 
 
@@ -420,7 +443,11 @@ body.dark .field-fileupload.style-image-multi .upload-object {
 body.dark .field-fileupload .upload-object h4 {
     color: #d7ba7d;
 }
-/* ___вкладки */
+
+/* Tabs - вкладки */
+body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title {
+    padding: 2px 25px 0px 25px;
+}
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:before,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:before,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:before,
@@ -435,7 +462,7 @@ body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li.active a >span.t
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li.active a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li.active a >span.title:after {
-    border-color: #333;
+    border-color: #555;
 }
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:before,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:before,
@@ -443,33 +470,33 @@ body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:be
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:after {
-    border-top: 2px solid #333;
+    border-top: 2px solid #555;
 }
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li.active a >span.title span,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title span,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li.active a >span.title span {
-    border-top-color: #333;
+    border-top-color: #555;
     color: #d16969;
 }
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li.active a:before,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a:before,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li.active a:before {
-    background-color: #569cd6;
+    background-color: #222;
 }
 body.dark .control-tabs.primary-tabs >ul.nav-tabs:before,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs:before,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs:before {
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #555;
 }
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:before,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:before,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:before {
-    border-left: 2px solid #333;
+    border-left: 2px solid #555;
 }
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:after {
-    border-right: 2px solid #333;
+    border-right: 2px solid #555;
 }
 body.dark .control-tabs >ul.nav-tabs >li.active a,
 body.dark .control-tabs >div >ul.nav-tabs >li.active a,
@@ -482,6 +509,16 @@ body.dark .layout-cell.w-300.form-sidebar.control-scrollpanel {
 }
 /* END - Создать - Редактировать */
 
+body.dark .control-tabs >div >ul.nav-tabs >li a >span.title >span {
+    border-top: 2px solid #555;
+}
+body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title:before,
+body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title:after {
+    background: #222;
+}
+body.dark .control-tabs >div >ul.nav-tabs >li a >span.title >span {
+    margin-top: -2px;
+}
 
 
 /* Фронтенд темы */
