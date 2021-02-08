@@ -171,10 +171,13 @@ body.dark div.control-componentlist div.components div.layout-cell > div.popover
     background: #333 !important;
 }
 body.dark div.control-componentlist div.components div.layout-cell > div:before,
-body.dark .component-list .components div.layout-cell > div span.name {
+body.dark .component-list .components div.layout-cell > div span.name,
+body.dark div.control-componentlist div.components div.layout-cell > div span.name,
+body.dark div.control-componentlist div.components div.layout-cell > div a.remove {
     color: #ff7f50;
 }
-body.dark .component-list .components div.layout-cell > div span.description {
+body.dark .component-list .components div.layout-cell > div span.description,
+body.dark div.control-componentlist div.components div.layout-cell > div span.description {
     color: #deb887;
 }
 body.dark div.control-componentlist div.components div.layout-cell > div span.alias {
