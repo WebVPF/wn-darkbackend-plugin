@@ -11,6 +11,14 @@ body.dark .bg-p {
     background-color: #3e3e3e;
 }
 
+body.dark a {
+    color: #569cd6;
+}
+body.dark a:hover,
+body.dark a:focus {
+    color: #51a6ec;
+}
+
 body.dark .callout.callout-info >.content {
     background: inherit;
     color: #e8e8e8;
