@@ -188,7 +188,7 @@ body.dark div.control-componentlist div.components div.layout-cell > div span.al
 
 /* backend/media */
 body.dark .whiteboard {
-    background: #333333;
+    background: #333;
 }
 body.dark .nav.selector-group li.active a {
     color: #d16969;
@@ -228,6 +228,35 @@ body.dark div[data-control="media-manager"] .sidebar-image-placeholder i.icon-le
 body.dark div[data-control="media-manager"] .sidebar-image-placeholder p {
     color: #d16969;
     background: #fff;
+}
+body.dark .nav >li >a:hover,
+body.dark .nav >li >a:focus {
+    background: #000;
+}
+body.dark div[data-control="media-manager"] .media-list.list li {
+    background: #555;
+    border: 1px solid #777;
+}
+body.dark div[data-control="media-manager"] .media-list li h4 {
+    color: #ff9800;
+}
+body.dark div[data-control="media-manager"] .media-list li[data-item-type="folder"] h4 {
+    color: #d16969;
+}
+body.dark div[data-control="media-manager"] .media-list li[data-item-type="file"] h4 {
+    color: #ffc107;
+}
+body.dark div[data-control="media-manager"] table.table tr[data-item-type=folder] i.icon-folder {
+    color: #ce9178;
+}
+body.dark div[data-control="media-manager"] table.table tr[data-item-type=folder].selected i.icon-folder {
+    color: inherit;
+}
+body.dark tr[data-item-type="file"] .item-title {
+    color: #00ffff;
+}
+body.dark [data-control="preview-sidebar"] .panel [data-label="title"] {
+    color: #d16969;
 }
 /* END - backend/media */
 
