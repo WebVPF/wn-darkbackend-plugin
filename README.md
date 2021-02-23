@@ -26,7 +26,9 @@ Open backend home page and in page code look at the value of `lang` attribute fo
 
 ---
 
+After updating plugin, it is recommended to clear browser cache.
 
+---
 
 ## Тёмный бекенд - Плагин для October CMS
 
