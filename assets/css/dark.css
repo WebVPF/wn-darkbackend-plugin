@@ -483,6 +483,9 @@ body.dark .field-fileupload.style-image-multi .upload-object {
 body.dark .field-fileupload .upload-object h4 {
     color: #d7ba7d;
 }
+body.dark .field-mediafinder .find-object h4 {
+    color: #ff7f50;
+}
 
 /* Tabs - вкладки */
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title {
