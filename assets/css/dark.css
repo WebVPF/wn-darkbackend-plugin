@@ -385,7 +385,7 @@ body.dark .table >tfoot >tr.active >td,
 body.dark .table >thead >tr.active >th,
 body.dark .table >tbody >tr.active >th,
 body.dark .table >tfoot >tr.active >th {
-    background-color: #54210a;
+    background-color: #3f51b5;
 }
 body.dark table.table.data tbody tr.active:nth-child(even) td,
 body.dark table.table.data tbody tr.active:nth-child(even) th {
