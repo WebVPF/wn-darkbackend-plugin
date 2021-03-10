@@ -572,6 +572,7 @@ body.dark .theme-selector-layout .theme-description p.description {
 }
 /* End - Фронтенд темы */
 
+
 /* Buttons and inputs */
 body.dark .btn-primary {
     background: #1681ba;
@@ -580,6 +581,10 @@ body.dark .btn-primary {
 body.dark .btn-primary:hover {
     background: #1975a7;
     border-color: #064363;
+}
+body.dark a.btn.btn-primary,
+body.dark a.btn.btn-default {
+    color: #c5c5c5;
 }
 body.dark .field-recordfinder .btn {
   color: #fff;
