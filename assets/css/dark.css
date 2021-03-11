@@ -562,6 +562,7 @@ body.dark .control-tabs >div >ul.nav-tabs >li a:hover {
 
 body.dark .layout-cell.w-300.form-sidebar.control-scrollpanel {
     background-color: #3e3e3e;
+    border-left: solid 1px #565656;
 }
 /* END - Создать - Редактировать */
 
