@@ -5,6 +5,7 @@ body.dark {
 
 body.dark nav#layout-mainmenu {
     background-color: #2f2f2f;
+    border-bottom: solid 1px #565656;
 }
 body.dark .bg-p {
     background-color: #3e3e3e;
@@ -423,6 +424,7 @@ body.dark .custom-radio label:before {
 /* breadcrumb */
 body.dark .control-breadcrumb {
     background-color: #404040;
+    border-bottom: solid 1px #565656;
 }
 body.dark .control-breadcrumb li {
     background-color: #1d1d1d;
@@ -436,6 +438,9 @@ body.dark .control-breadcrumb li:after {
 body.dark .control-breadcrumb li:last-child {
     background-color: transparent;
     color: #c8c8c8;
+}
+body.dark .control-breadcrumb li a {
+    color: #00bcd4;
 }
 /* END - breadcrumb */
 
@@ -496,7 +501,7 @@ body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:be
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:after {
-    background: #3f4244;
+    background: #222;
 }
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li.active a >span.title:before,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title:before,
@@ -517,8 +522,8 @@ body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:af
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li.active a >span.title span,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title span,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li.active a >span.title span {
+    color: #7fffd4;
     border-top-color: #555;
-    color: #d16969;
 }
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li.active a:before,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a:before,
@@ -545,9 +550,15 @@ body.dark .control-tabs >div >ul.nav-tabs >li.active a,
 body.dark .control-tabs >div >div >ul.nav-tabs >li.active a {
     color: #f9e23d;
 }
+body.dark .control-tabs >div >ul.nav-tabs >li a {
+    color: #8194a5;
+}
+body.dark .control-tabs >div >ul.nav-tabs >li a:hover {
+    color: #b2bfca;
+}
 
 body.dark .layout-cell.w-300.form-sidebar.control-scrollpanel {
-    background-color: #2d2d2d;
+    background-color: #3e3e3e;
 }
 /* END - Создать - Редактировать */
 
