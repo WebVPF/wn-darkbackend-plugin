@@ -285,6 +285,9 @@ body.dark .sidenav-tree ul.top-level >li >div.group:before,
 body.dark .sidenav-tree ul.top-level >li >div.group:after {
     border-top: 8px solid #353535;
 }
+body.dark .layout-sidenav-container {
+    border-right: solid 1px #565656;
+}
 /* End - Меню плагинов */
 
 
