@@ -625,6 +625,7 @@ body.dark .select2-container--default .select2-search--dropdown .select2-search_
 body.dark .modal-content {
   background: #222222;
   color: #c8c8c8;
+  border: solid 1px #4c4c4c;
 }
 body.dark .modal-header {
   color: #e0dfdf;
