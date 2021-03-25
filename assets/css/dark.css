@@ -191,6 +191,20 @@ body.dark div.control-componentlist div.components div.layout-cell > div span.de
 body.dark div.control-componentlist div.components div.layout-cell > div span.alias {
     color: #7fffd4;
 }
+body.dark #cms-master-tabs .form-buttons .btn.btn-primary {
+    color: #fff;
+}
+body.dark #cms-master-tabs .form-buttons .btn.btn-primary:hover {
+    background-color: transparent;
+}
+body.dark #cms-master-tabs.fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li a span.title {
+    margin: -2px 0px;
+    background: #222;
+    padding: 5px 5px 3px 5px;
+}
+body.dark #cms-master-tabs .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title span {
+    background: #333;
+}
 /* END - CMS */
 
 
