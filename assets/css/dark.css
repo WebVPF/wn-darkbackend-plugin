@@ -435,6 +435,22 @@ body.dark .custom-radio label:before {
     border: 1px solid #d6d6d6;
     box-shadow: none;
 }
+body.dark .field-fileupload.style-file-multi .upload-object:nth-child(odd) {
+    background-color: #3b3b3b;
+}
+body.dark .field-fileupload.style-file-multi .upload-object:nth-child(even) {
+    background-color: #565656;
+}
+body.dark .field-fileupload.style-file-multi .upload-files-container {
+    border: 1px solid #777;
+}
+body.dark .field-fileupload.style-file-multi .upload-object {
+    border-bottom: 1px solid #777;
+}
+body.dark .field-fileupload.style-file-multi .upload-object .info h4,
+body.dark .field-fileupload.style-file-multi .upload-object .info p {
+    color: #d6d6d6;
+}
 
 
 
