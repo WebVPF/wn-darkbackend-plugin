@@ -1,6 +1,7 @@
 # Dark Backend - Plugin for Winter CMS
 
 This plugin adds a dark theme switch to the user’s menu in backend of site. Now you can switch to dark theme for backend in one click.
+
 October CMS - https://octobercms.com/plugin/webvpf-darkbackend
 
 ## Custom skins
