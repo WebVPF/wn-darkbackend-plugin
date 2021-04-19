@@ -3,7 +3,7 @@
     "type": "winter-plugin",
     "description": "Dark Theme for Backend Winter CMS",
     "homepage": "https://github.com/WebVPF/dark-backend",
-    "keywords": ["winter", "wintercms", "dark", "darktheme"],
+    "keywords": ["winter", "wintercms", "wintercms-plugin", "dark", "darktheme"],
     "license": "MIT",
     "authors": [
         {
