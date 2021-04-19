@@ -2,6 +2,12 @@
 
 This plugin adds a dark theme switch to the user’s menu in backend of site. Now you can switch to dark theme for backend in one click.
 
+Installation Сomposer:
+
+```
+composer require webvpf/dark-backend
+```
+
 ## Custom skins
 
 As a dark theme, you can use your own styles. To do this, simply add a file called `custom.css` to **plugins/webvpf/darkbackend/assets/css/** folder. As a dark theme, the system will take styles from this file.
