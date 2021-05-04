@@ -1,9 +1,9 @@
 {
-    "name": "webvpf/darkbackend",
+    "name": "webvpf/wn-darkbackend-plugin",
     "type": "winter-plugin",
     "description": "Dark Theme for Backend Winter CMS",
-    "homepage": "https://github.com/WebVPF/wn-darkbackend",
-    "keywords": ["winter", "wintercms", "wintercms-plugin"],
+    "homepage": "https://github.com/WebVPF/wn-darkbackend-plugin",
+    "keywords": ["winter cms", "wintercms", "wintercms-plugin"],
     "license": "MIT",
     "authors": [
         {
@@ -12,8 +12,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/WebVPF/wn-darkbackend/issues",
-        "source": "https://github.com/WebVPF/wn-darkbackend"
+        "issues": "https://github.com/WebVPF/wn-darkbackend-plugin/issues",
+        "source": "https://github.com/WebVPF/wn-darkbackend-plugin"
     },
     "require": {
         "php": ">=7.2",
