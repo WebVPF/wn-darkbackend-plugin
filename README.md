@@ -5,7 +5,7 @@ This plugin adds a dark theme switch to the user’s menu in backend of site. No
 Installation Сomposer:
 
 ```
-composer require webvpf/darkbackend
+composer require webvpf/wn-darkbackend-plugin
 ```
 
 ## Custom skins
@@ -24,7 +24,7 @@ body.dark .className {
 
 ## Translation for switch text
 
-Write a comment here: https://github.com/WebVPF/wn-darkbackend/issues/1 where specify language code and translation for text **Dark Theme** in your language.
+Write a comment here: https://github.com/WebVPF/wn-darkbackend-plugin/issues/1 where specify language code and translation for text **Dark Theme** in your language.
 
 ### How to find out language code
 
