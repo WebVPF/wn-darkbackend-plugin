@@ -1,6 +1,11 @@
 body.dark {
-    background: #222222;
+    background: #222;
     color: #ccc;
+}
+.layout.control-tabs.wn-logo-transparent:not(.has-tabs):after,
+.flex-layout-column.wn-logo-transparent:not(.has-tabs):after,
+.layout-cell.wn-logo-transparent:after {
+    background: transparent;
 }
 
 body.dark nav#layout-mainmenu {
