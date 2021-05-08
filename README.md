@@ -2,6 +2,8 @@
 
 This plugin adds a dark theme switch to the user’s menu in backend of site. Now you can switch to dark theme for backend in one click.
 
+Protect your eyes!
+
 Plugin screenshot gallery: https://github.com/WebVPF/wn-darkbackend-plugin/issues/6
 
 ## Install
@@ -42,7 +44,9 @@ After updating plugin, it is recommended to clear browser cache.
 
 ## Тёмный бекенд - Плагин для Winter CMS
 
-Добавляет в бекенде Winter CMS переключатель на тёмную тему.
+Добавляет в бекенде Winter CMS в меню пользователя переключатель на тёмную тему. Теперь вы можете переключиться на темную тему для бэкэнда одним щелчком мыши.
+
+Берегите зрение!
 
 ## Пользовательские скины
 
