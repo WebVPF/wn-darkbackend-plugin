@@ -2,6 +2,10 @@
 
 This plugin adds a dark theme switch to the user’s menu in backend of site. Now you can switch to dark theme for backend in one click.
 
+Plugin screenshot gallery: https://github.com/WebVPF/wn-darkbackend-plugin/issues/6
+
+## Install
+
 Installation Сomposer:
 
 ```
