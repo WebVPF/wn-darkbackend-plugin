@@ -11,7 +11,7 @@ class Plugin extends PluginBase
     {
         return [
             'name'        => 'DarkBackend',
-            'description' => 'Dark Theme for Backend October CMS',
+            'description' => 'Dark Theme for Backend Winter CMS',
             'author'      => 'WebVPF',
             'icon'        => 'icon-adjust'
         ];
