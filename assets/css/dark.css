@@ -37,6 +37,12 @@ body.dark .close:focus {
     color: #fff;
 }
 
+body.dark .field-fileupload .upload-object .info h4 a,
+body.dark .field-fileupload .upload-object .meta a.upload-remove-button,
+body.dark .field-fileupload .upload-object .meta a.drag-handle {
+    color: #ef0319;
+}
+
 body.dark .table-striped.widget-calcs {
     color: #bbb;
 }
