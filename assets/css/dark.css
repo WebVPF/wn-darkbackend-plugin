@@ -53,6 +53,26 @@ body.dark .table >tbody >tr >td {
     border-top: 1px solid #616161;
 }
 
+/* tooltip */
+body.dark .tooltip-inner {
+    background: #d1d1d1;
+    color: #000;
+}
+body.dark .tooltip.top .tooltip-arrow {
+    border-top-color: #d1d1d1;
+}
+body.dark .tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #d1d1d1;
+}
+body.dark .tooltip.left .tooltip-arrow {
+    border-left-color: #d1d1d1;
+}
+body.dark .tooltip.right .tooltip-arrow {
+    border-right-color: #d1d1d1;
+}
+/* End tooltip */
+
+
 /* Dashboard - Панель управления */
 body.dark .report-container > ul .item {
     background: #6f6f6f;
@@ -439,6 +459,9 @@ body.dark .field-checkboxlist .field-checkboxlist-inner {
     background-color: #505050;
     border: 1px solid #909090;
     box-shadow: none;
+}
+body.dark .field-checkboxlist .checkboxlist-controls >div >a:hover >i {
+    color: #1f99dc;
 }
 body.dark .custom-checkbox label:before,
 body.dark .custom-radio label:before {
