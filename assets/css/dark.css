@@ -694,3 +694,21 @@ body.dark .modal-content {
 body.dark .modal-header {
   color: #e0dfdf;
 }
+
+
+/* Widget Winter.User Statistics */
+body.dark .user-statistics-widget {
+    background: #000;
+}
+body.dark .table-user-statistics {
+    margin-top: 20px;
+}
+body.dark .users-statistics-item-total,
+body.dark .users-statistics-item-activated,
+body.dark .users-statistics-item-banned {
+    background: inherit;
+}
+body.dark .users-statistics-item-total {color: aqua}
+body.dark .users-statistics-item-activated {color: greenyellow}
+body.dark .users-statistics-item-banned {color: orangered}
+body.dark .table-user-statistics td:not(:first-child) {color: cyan}
