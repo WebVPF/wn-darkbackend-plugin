@@ -513,7 +513,7 @@ body.dark .control-breadcrumb li a {
 
 
 
-/* Создать - Редактировать */
+/* Form - Создать/Редактировать */
 body.dark label {
     color: #c8c8c8;
 }
@@ -522,6 +522,9 @@ body.dark .form-control {
     background-color: #505050;
     border: 1px solid #909090;
     box-shadow: none;
+}
+body.dark .field-section h4 {
+    color: #fa8072;
 }
 body.dark .form-control[disabled],
 body.dark .form-control[readonly],
