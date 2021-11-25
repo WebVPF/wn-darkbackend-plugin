@@ -697,6 +697,9 @@ body.dark .modal-content {
 body.dark .modal-header {
   color: #e0dfdf;
 }
+body.dark .control-simplelist {
+    background: #000;
+}
 
 
 /* Widget Winter.User Statistics */
