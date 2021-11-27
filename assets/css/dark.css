@@ -23,6 +23,10 @@ body.dark a:hover,
 body.dark a:focus {
     color: #51a6ec;
 }
+body.dark .btn-link:hover,
+body.dark .btn-link:focus {
+    color: #00ffff;
+}
 
 body.dark .callout.callout-info >.content {
     background: inherit;
