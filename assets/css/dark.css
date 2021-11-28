@@ -24,7 +24,8 @@ body.dark a:focus {
     color: #51a6ec;
 }
 body.dark .btn-link:hover,
-body.dark .btn-link:focus {
+body.dark .btn-link:focus,
+body.dark .btn-icon:hover:before {
     color: #00ffff;
 }
 
