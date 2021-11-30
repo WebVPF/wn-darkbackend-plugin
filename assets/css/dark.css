@@ -345,7 +345,7 @@ body.dark .layout-sidenav-container {
 /* List - Список */
 body.dark .control-filter {
     color: #fff;
-    background-color: #416080;
+    background-color: #1a2938;
     border-top: 1px solid #34495e;
     border-bottom: 1px solid #34495e;
 }
@@ -370,7 +370,7 @@ body.dark table.table.data tbody tr.rowlink:not(.nolink):active td {
 }
 body.dark table.table.data tbody tr.rowlink:not(.nolink):hover td,
 body.dark table.table.data tbody tr:not(.no-data).selected td {
-    background: #395169 !important;
+    background: #253240 !important;
     color: #fff;
 }
 body.dark table.table.data tbody tr:nth-child(even) td,
@@ -418,8 +418,8 @@ body.dark .control-filter >.filter-has-popover:hover .filter-label {
 
 body.dark table.table.data thead td,
 body.dark table.table.data thead th {
-    border-top: 1px solid #0180ff !important;
-    border-bottom: 1px solid #0180ff !important;
+    border-top: 1px solid #34495e !important;
+    border-bottom: 1px solid #34495e !important;
     border-color: #0180ff;
 }
 body.dark table.table.data .list-checkbox {
