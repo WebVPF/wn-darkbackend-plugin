@@ -706,6 +706,20 @@ body.dark .control-simplelist {
     background: #000;
 }
 
+/* permission editor */
+body.dark .permissioneditor table th {
+    color: #d16969;
+    border-bottom: 1px solid #0180ff;
+}
+body.dark .permissioneditor table td {
+    border-bottom: 1px solid #464b4c;
+}
+body.dark .permissioneditor table tr:hover td {
+    background: #253240;
+}
+body.dark .permissioneditor table td.permission-name {
+    color: #8fbc8f;
+}
 
 /* Widget Winter.User Statistics */
 body.dark .user-statistics-widget {
