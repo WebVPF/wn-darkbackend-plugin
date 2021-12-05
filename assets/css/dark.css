@@ -506,7 +506,9 @@ body.dark .field-fileupload.style-file-multi .upload-object .info p {
     color: #d6d6d6;
 }
 
-
+body.dark .control-list p.no-data {
+    color: #d7ba7d;
+}
 
 /* breadcrumb */
 body.dark .control-breadcrumb {
