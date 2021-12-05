@@ -32,7 +32,7 @@ body.dark .btn-icon:hover:before {
 body.dark .callout.callout-info >.content {
     background: inherit;
     color: #e8e8e8;
-    border: solid 2px #b15308;
+    border: solid 2px #1558b9;
 }
 body.dark .close {
     color: #fff;
