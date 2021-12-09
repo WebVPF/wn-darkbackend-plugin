@@ -30,7 +30,9 @@ class Plugin extends PluginBase
                 $controller->addCss('/' . $filename);
             }
             else {
-                $controller->addCss('/plugins/webvpf/darkbackend/assets/css/dark.css');
+                $controller->addCss('/plugins/webvpf/darkbackend/assets/css/dark.css', [
+                    'build' => 'WebVPF.DarkBackend'
+                ]);
             }
             
             $controller->addJs('/plugins/webvpf/darkbackend/assets/js/script.js');
