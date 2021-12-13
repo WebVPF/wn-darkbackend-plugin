@@ -10,8 +10,8 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name'        => 'DarkBackend',
-            'description' => 'Dark Theme for Backend Winter CMS',
+            'name'        => 'webvpf.darkbackend::lang.plugin.name',
+            'description' => 'webvpf.darkbackend::lang.plugin.desc',
             'author'      => 'WebVPF',
             'icon'        => 'icon-adjust'
         ];
