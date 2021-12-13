@@ -13,7 +13,8 @@ class Plugin extends PluginBase
             'name'        => 'webvpf.darkbackend::lang.plugin.name',
             'description' => 'webvpf.darkbackend::lang.plugin.desc',
             'author'      => 'WebVPF',
-            'icon'        => 'icon-adjust'
+            'icon'        => 'icon-adjust',
+            'homepage'    => 'https://github.com/WebVPF/wn-darkbackend-plugin',
         ];
     }
 
@@ -30,12 +31,10 @@ class Plugin extends PluginBase
                 $controller->addCss('/' . $filename);
             }
             else {
-                $controller->addCss('/plugins/webvpf/darkbackend/assets/css/dark.css', [
-                    'build' => 'WebVPF.DarkBackend'
-                ]);
+                $controller->addCss('/plugins/webvpf/darkbackend/assets/css/dark.css', 'WebVPF.DarkBackend');
             }
             
-            $controller->addJs('/plugins/webvpf/darkbackend/assets/js/script.js');
+            $controller->addJs('/plugins/webvpf/darkbackend/assets/js/script.js', 'WebVPF.DarkBackend');
         });
     }
 
