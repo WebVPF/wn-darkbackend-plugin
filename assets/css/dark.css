@@ -535,7 +535,7 @@ body.dark .control-breadcrumb li a {
 
 
 
-/* Form - Создать/Редактировать */
+/* Form */
 body.dark label {
     color: #c8c8c8;
 }
@@ -653,7 +653,48 @@ body.dark .layout-cell.w-300.form-sidebar.control-scrollpanel {
     background-color: #3e3e3e;
     border-left: solid 1px #565656;
 }
-/* END - Создать - Редактировать */
+
+body.dark .control-tabs.content-tabs >.tab-content >.tab-pane div.list-header,
+body.dark .control-tabs.content-tabs >.tab-content >.tab-pane div.padded-container,
+body.dark .control-tabs.content-tabs >.tab-content >.tab-pane div.toolbar-widget {
+    background: #15232c;
+}
+body.dark .control-tabs.content-tabs >ul.nav-tabs li.active {
+    background: #15232c;
+}
+body.dark .control-tabs.content-tabs >ul.nav-tabs li {
+    border-right: 1px solid #565656;
+}
+body.dark .control-tabs.content-tabs >ul.nav-tabs:before {
+    background: #565656;
+}
+
+body.dark .form-preview {
+    background: #343434;
+    border: 1px solid #626262;
+}
+body.dark .nested-form.panel-styles {
+    background: #343434;
+    border: 1px solid #626262;
+    box-shadow: inset 0 1px 0 rgb(0 154 247 / 25%), 0 1px 0 rgb(30 94 145);
+}
+
+body.dark .callout.callout-warning >.header {
+    background: #e5a23f;
+}
+body.dark .callout.callout-warning >.content {
+    background: #343434;
+    border: 2px solid #e5a23f;
+}
+body.dark .callout.callout-warning >.content ::marker {
+    color: #ddd;
+}
+body.dark .callout.callout-warning >.content a {
+    color: #40a8ff;
+}
+/* END - Form */
+
+
 
 body.dark .control-tabs >div >ul.nav-tabs >li a >span.title >span {
     border-top: 2px solid #555;
