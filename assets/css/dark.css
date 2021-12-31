@@ -13,7 +13,7 @@ body.dark nav#layout-mainmenu {
     border-bottom: solid 1px #565656;
 }
 body.dark .bg-p {
-    background-color: #3e3e3e;
+    background-color: rgb(51, 51, 51);
 }
 
 body.dark a {
@@ -128,7 +128,7 @@ body.dark .control-chart div.chart-legend table {
 
 /* CMS */
 body.dark .control-scrollpanel {
-    background: #333333;
+    background: rgb(37, 37, 38);
     border-right: solid 1px #565656;
     border-left: solid 1px #212121;
 }
@@ -319,11 +319,11 @@ body.dark [data-control="preview-sidebar"] .panel [data-label="title"] {
 /* END - backend/media */
 
 
-/* Меню плагинов - system/settings */
+/* sidenav */
 body.dark #layout-sidenav li.active {
     margin-left: 5px;
     background: black;
-    border-left: solid 3px #bf4b00;
+    border-left: solid 3px #3498db;
 }
 body.dark #layout-sidenav li.active a:hover {
     background: black;
@@ -338,7 +338,7 @@ body.dark .sidenav-tree ul.top-level >li >div.group:after {
 body.dark .layout-sidenav-container {
     border-right: solid 1px #565656;
 }
-/* End - Меню плагинов */
+/* End sidenav */
 
 
 
