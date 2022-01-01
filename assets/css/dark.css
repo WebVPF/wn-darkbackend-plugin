@@ -30,10 +30,21 @@ body.dark nav#layout-mainmenu ul li .mainmenu-accountmenu li a:focus {
     background: #1f6feb;
     color: #f0f6fc;
 }
+body.dark nav#layout-mainmenu ul li .mainmenu-accountmenu li:first-child a:hover,
+body.dark nav#layout-mainmenu ul li .mainmenu-accountmenu li:first-child a:focus {
+    border-radius: 3px 3px 0 0;
+}
+body.dark nav#layout-mainmenu ul li .mainmenu-accountmenu li:last-child a:hover,
+body.dark nav#layout-mainmenu ul li .mainmenu-accountmenu li:last-child a:focus {
+    border-radius: 0 0 3px 3px;
+}
 body.dark nav#layout-mainmenu ul li .mainmenu-accountmenu li:first-child a:hover:after,
 body.dark nav#layout-mainmenu ul li .mainmenu-accountmenu li:first-child a:focus:after,
 body.dark nav#layout-mainmenu ul li .mainmenu-accountmenu li:first-child a:active:after {
     border-bottom: 7px solid #1f6feb;
+}
+body.dark nav#layout-mainmenu ul li .mainmenu-accountmenu li.divider {
+    background-color: #30363d;
 }
 
 
@@ -788,19 +799,25 @@ body.dark .control-simplelist {
     background: #000;
 }
 
+body.dark div.popover-overlay {
+    background: rgb(0 0 0 / 50%);
+}
+
 /* permission editor */
 body.dark .permissioneditor table th {
-    color: #d16969;
-    border-bottom: 1px solid #0180ff;
+    color: #fff;
+    border-bottom: 1px solid #4e4e4e;
+    font-weight: 600;
+    font-size: 16px;
 }
 body.dark .permissioneditor table td {
-    border-bottom: 1px solid #464b4c;
+    border-bottom: 1px solid #161b22;
 }
 body.dark .permissioneditor table tr:hover td {
-    background: #253240;
+    background: #161b22;
 }
 body.dark .permissioneditor table td.permission-name {
-    color: #8fbc8f;
+    color: #3fb950;
 }
 
 /* Widget Winter.User Statistics */
