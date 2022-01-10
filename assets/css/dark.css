@@ -792,6 +792,7 @@ body.dark .select2-container--default .select2-search--dropdown .select2-search_
 	background-color: #505050;
 }
 
+
 /* Modals */
 body.dark .modal-content {
 	background: #222222;
@@ -809,6 +810,32 @@ body.dark div.popover-overlay {
 	background: rgb(0 0 0 / 50%);
 }
 
+
+/* Flash message */
+body.dark .flash-message {
+	background: #0d1117;
+	color: #c9d1d9;
+	border-style: solid;
+	border-width: 1px;
+}
+body.dark .flash-message.success {
+	background-image: linear-gradient(rgb(46 160 67 / 15%), rgb(46 160 67 / 15%));
+	border-color: rgb(46 160 67 / 40%);
+}
+body.dark .flash-message.info {
+	background-image: linear-gradient(rgb(56 139 253 / 15%), rgb(56 139 253 / 15%));
+	border-color: rgb(56 139 253 / 40%);
+}
+body.dark .flash-message.warning {
+	background-image: linear-gradient(rgb(187 128 9 / 15%), rgb(187 128 9 / 15%));
+	border-color: rgb(187 128 9 / 40%);
+}
+body.dark .flash-message.error {
+	background-image: linear-gradient(rgb(248 81 73 / 15%), rgb(248 81 73 / 15%));
+	border-color: rgb(248 81 73 / 40%);
+}
+
+
 /* permission editor */
 body.dark .permissioneditor table th {
 	color: #fff;
@@ -825,6 +852,7 @@ body.dark .permissioneditor table tr:hover td {
 body.dark .permissioneditor table td.permission-name {
 	color: #3fb950;
 }
+
 
 /* Widget Winter.User Statistics */
 body.dark .user-statistics-widget {
