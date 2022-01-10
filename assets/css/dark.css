@@ -720,7 +720,6 @@ body.dark .callout.callout-warning >.header {
     background-image: linear-gradient(rgb(187 128 9 / 15%), rgb(187 128 9 / 15%));
     border-color: rgb(187 128 9 / 40%);
     border-style: solid;
-    border-width: 8px 2px 0 2px;
 }
 body.dark .callout.callout-warning >.content {
 	background: #0d1117;
