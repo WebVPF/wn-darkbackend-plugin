@@ -1,4 +1,6 @@
-# Dark Backend - Plugin for Winter CMS
+# Dark Backend
+
+Plugin for Winter CMS
 
 This plugin adds a dark theme switch to the user’s menu in backend of site. Now you can switch to dark theme for backend in one click.
 
@@ -8,17 +10,19 @@ Plugin screenshot gallery: https://github.com/WebVPF/wn-darkbackend-plugin/issue
 
 ## Installation Сomposer:
 
-    composer require webvpf/wn-darkbackend-plugin
+```bash
+composer require webvpf/wn-darkbackend-plugin
+```
 
 ## Custom skins
 
-As a dark theme, you can use your own styles. To do this, simply add a file called `custom.css` to **plugins/webvpf/darkbackend/assets/css/** folder. As a dark theme, the system will take styles from this file.
-
 When dark mode is enabled, the plugin script adds `dark` class for `body` tag. Therefore, to override the standard styles, you need to add `body.dark` before the selector name.
 
-    body.dark .className {
+```css
+body.dark .className {
 
-    }
+}
+```
 
 ---
 
