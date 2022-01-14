@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded", function() {
-    var theme = localStorage.getItem('backendTheme'),
+document.addEventListener("DOMContentLoaded", () => {
+    let theme = localStorage.getItem('backendTheme'),
         $body = document.querySelector('body'),
         lang = document.querySelector('html').getAttribute('lang'),
         textCheckbox = {
@@ -10,11 +10,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
     theme == 'dark' ? $body.classList.add('dark') : 0;
 
-    var toggleTheme = document.createElement('li');
+    let toggleTheme = document.createElement('li');
     toggleTheme.className = 'dark-theme';
-    toggleTheme.innerHTML = '<div class="checkbox custom-checkbox" style="margin:5px 30px 4px"><label for="darkTheme">' + txtLang + '</label></div>';
+    toggleTheme.innerHTML = `<div class="checkbox custom-checkbox" style="margin:5px 30px 4px"><label for="darkTheme">${ txtLang }</label></div>`;
 
-    var checkTheme = document.createElement('input');
+    let checkTheme = document.createElement('input');
     checkTheme.id = 'darkTheme';
     checkTheme.setAttribute('name', 'checkbox');
     checkTheme.setAttribute('type', 'checkbox');
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     document.querySelector('.mainmenu-accountmenu li.divider').before(toggleTheme);
 
-    checkTheme.addEventListener('input', function() {
+    checkTheme.addEventListener('input', () => {
         if (checkTheme.checked) {
             $body.classList.add('dark');
             localStorage.setItem('backendTheme', 'dark');
