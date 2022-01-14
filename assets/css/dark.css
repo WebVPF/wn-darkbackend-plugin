@@ -389,7 +389,7 @@ body.dark .dropdown-menu .dropdown-container >ul:after {
 body.dark .dropdown-menu .dropdown-container >ul li.first-item a:hover:after,
 body.dark .dropdown-menu .dropdown-container >ul li.first-item a:focus:after,
 body.dark .dropdown-menu .dropdown-container >ul li.first-item a:active:after {
-    border-bottom-color: #1f6feb;
+	border-bottom-color: #1f6feb;
 }
 body.dark .dropdown-menu .dropdown-container >ul li a {
 	color: var(--drk-color);
@@ -498,7 +498,7 @@ body.dark .control-assetlist ul li a.link:hover {
 }
 body.dark .control-assetlist ul li.active a.link,
 body.dark .control-assetlist ul li a.link:hover {
-    background: var(--drk-bg-color-b);
+	background: var(--drk-bg-color-b);
 }
 body.dark .control-assetlist p.parent.parent a.link:after {
 	font-size: 7px;
@@ -701,10 +701,10 @@ body.dark [data-control="preview-sidebar"] .panel [data-label="title"] {
 
 /* List - Список */
 body.dark .list-widget table {
-    border-left: 1px solid var(--drk-border-color);
+	border-left: 1px solid var(--drk-border-color);
 }
 body.dark .control-table .control-scrollbar table.data tr:last-child td {
-    border-bottom-color: var(--drk-border-color);
+	border-bottom-color: var(--drk-border-color);
 }
 body.dark .control-filter {
 	color: #fff;
@@ -729,16 +729,16 @@ body.dark table.table.data tbody th {
 
 body.dark table.table.data tbody tr.rowlink:not(.nolink):active td {
 	background: #395169 !important;
-	color: #fff;
+	color: var(--drk-color);;
 }
 body.dark table.table.data tbody tr.rowlink:not(.nolink):hover td,
 body.dark table.table.data tbody tr:not(.no-data).selected td {
 	background: #192634 !important;
-	color: #fff;
+	color: var(--drk-color);;
 }
 body.dark table.table.data tbody tr:nth-child(even) td,
 body.dark table.table.data tbody tr:nth-child(even) th {
-	background-color: #090b0e;
+	background-color: #0c121a;
 }
 body.dark table.table.data thead td >a,
 body.dark table.table.data thead th >a,
@@ -905,7 +905,7 @@ body.dark .form-control {
 	box-shadow: 0 0 transparent;
 }
 body.dark .custom-switch input:checked ~ span {
-    background-color: #238636;
+	background-color: #238636;
 }
 body.dark div[data-control="sensitive"] a[data-toggle],
 body.dark div[data-control="sensitive"] a[data-copy] {
