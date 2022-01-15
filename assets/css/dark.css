@@ -1352,6 +1352,41 @@ body.dark .control-table td[data-column-type=checkbox] div[data-checkbox-element
 }
 
 
+/* Winter.Notes */
+body.dark .field-notes .field-notes-list {
+	background-color: var(--drk-bg-color-b);
+}
+body.dark .field-notes .field-notes-form {
+	background-color: var(--drk-bg-color-a);
+}
+body.dark .field-notes .field-notes-list > ul .checked {
+	background-color: var(--drk-bg-color-c);
+	color: var(--drk-color);
+}
+body.dark .field-notes .toolbar .btn-icon {
+	background: var(--drk-bg-color-btn);
+	border-color: var(--drk-border-color);
+}
+body.dark .field-notes .toolbar .btn-icon:hover {
+	background: #0654ca;
+}
+body.dark .field-notes .toolbar [class*=" oc-icon-"]:before {
+	color: var(--drk-color);
+}
+body.dark .field-notes .field-notes-list > ul > li a {
+	color: var(--drk-color);
+}
+body.dark .field-notes .field-notes-list > ul > li div h4 span {
+	color: #777;
+}
+body.dark .field-notes .field-notes-list > ul > li a h3 {
+	font-weight: 600;
+}
+body.dark .field-notes .field-notes-list > ul > li {
+	border-color: var(--drk-border-color);
+}
+
+
 /* Widget Winter.User Statistics */
 body.dark .user-statistics-widget {
 	background: #000;
