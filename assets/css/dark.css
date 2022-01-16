@@ -1011,6 +1011,11 @@ body.dark div.control-popover.placement-bottom >div:after {
 body.dark div.control-popover .popover-head {
 	background: var(--drk-bg-color-b);
 	color: var(--drk-color);
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+}
+body.dark div.control-popover .popover-head h3 {
+	font-weight: 600;
 }
 body.dark div.control-popover .popover-head p {
 	color: #bdb884;
@@ -1020,6 +1025,18 @@ body.dark div.control-popover .popover-head .close {
 }
 body.dark div.control-popover.placement-bottom .popover-head:before {
 	border-bottom-color: var(--drk-bg-color-b);
+}
+body.dark div.control-popover.placement-bottom .popover-head:after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	border-left: 8.5px solid transparent;
+	border-right: 8.5px solid transparent;
+	border-bottom: 9px solid var(--drk-border-color);
+	left: 14px;
+	top: -10px;
+	position: absolute;
 }
 body.dark .inspector-fields th {
 	color: #c5c5c5;
@@ -1038,6 +1055,12 @@ body.dark .inspector-fields td.text.active {
 body.dark .inspector-fields input[type=text] {
 	background: var(--drk-bg-color-c);
 	color: var(--drk-color);
+}
+body.dark .inspector-fields td div.external-param-editor-container.editor-visible div.external-editor div.controls input {
+	background: var(--drk-bg-color-c);
+}
+body.dark .select2-dropdown.ocInspectorDropdown .select2-search {
+	border-bottom-color: var(--drk-border-color);
 }
 body.dark div.control-popover .select2-container--default .select2-selection {
 	background-color: var(--drk-bg-color-c);
