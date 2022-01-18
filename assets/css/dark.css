@@ -111,7 +111,7 @@ body.dark .table >thead >tr >th {
 	border-bottom-color: var(--drk-border-color);
 }
 body.dark .table-striped >tbody >tr:nth-child(odd) >td {
-	background-color: #0c121a;
+	background-color: #1d242e;
 }
 body.dark .table >tbody >tr >td {
 	border-top-color: var(--drk-border-color);
