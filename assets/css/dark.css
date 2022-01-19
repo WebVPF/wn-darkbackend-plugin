@@ -867,6 +867,9 @@ body.dark .field-fileupload.style-file-multi .upload-object .info h4,
 body.dark .field-fileupload.style-file-multi .upload-object .info p {
 	color: #d6d6d6;
 }
+body.dark .field-fileupload .upload-object.is-error .info h4 {
+	color: #ed1700;
+}
 
 body.dark .control-list p.no-data {
 	color: #d7ba7d;
@@ -1033,6 +1036,24 @@ body.dark div.control-popover .popover-head p {
 body.dark div.control-popover .popover-head .close {
 	color: #8b8b8b;
 }
+body.dark div.control-popover.placement-left .popover-head:before {
+	border-left-color: var(--drk-border-color);
+	right: -9px;
+}
+body.dark div.control-popover.placement-left .popover-head:after {
+	position: absolute;
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: 7.5px solid transparent;
+	border-bottom: 7.5px solid transparent;
+	border-left: 8px solid #f9f9f9;
+	right: -8px;
+	top: 7px;
+	border-left-color: var(--drk-bg-color-b);
+	z-index: 602;
+}
 body.dark div.control-popover.placement-bottom .popover-head:before {
 	border-bottom-color: var(--drk-bg-color-b);
 }
@@ -1074,6 +1095,19 @@ body.dark .select2-dropdown.ocInspectorDropdown .select2-search {
 }
 body.dark div.control-popover .select2-container--default .select2-selection {
 	background-color: var(--drk-bg-color-c);
+}
+body.dark div.control-popover.popover-danger .popover-head {
+	background-image: linear-gradient(rgb(248 81 73 / 15%), rgb(248 81 73 / 15%));
+}
+body.dark div.control-popover.popover-danger >div {
+	background-image: linear-gradient(rgb(248 81 73 / 15%), rgb(248 81 73 / 15%));
+	border-color: #9f0700;
+}
+body.dark div.control-popover.popover-danger.placement-top .popover-head:before {
+	display: none;
+}
+body.dark div.control-popover.popover-danger.placement-top >div:after {
+	border-top-color: #9f0700;
 }
 
 
