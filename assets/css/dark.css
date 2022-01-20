@@ -788,19 +788,20 @@ body.dark .control-filter >.filter-has-popover:hover .filter-label {
 }
 body.dark .control-filter-popover .filter-items {
 	background-color: #353535;
-	border-bottom: 1px solid #3e71a5;
+	border-bottom-color: #3e71a5;
 }
 body.dark .control-filter-popover .filter-items a,
 body.dark .control-filter-popover .filter-active-items a {
-	color: #d7ba7d;
+	color: #999;
 }
 body.dark .control-filter-popover .filter-items,
 body.dark .control-filter-popover .filter-active-items {
-	background-color: #2d2d2d;
+	background-color: var(--drk-bg-color-b);
 }
 body.dark .control-filter-popover .filter-items a:hover,
 body.dark .control-filter-popover .filter-active-items a:hover {
-	background-color: #222222;
+	background-color: var(--drk-bg-color-c);
+	color: var(--drk-color);
 }
 
 
