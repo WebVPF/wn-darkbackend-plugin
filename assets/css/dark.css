@@ -358,6 +358,9 @@ body.dark .report-container > ul .item .content .widget-control {
 body.dark .report-container > ul .item .content .widget-control:hover {
 	color: var(--drk-color);
 }
+body.dark .widget-welcome .welcome-logo {
+	background: inherit;
+}
 body.dark .widget-welcome .welcome-message {
 	color: #bbbbbb;
 }
@@ -1354,10 +1357,14 @@ body.dark .control-tabs.content-tabs >.tab-content >.tab-pane div.toolbar-widget
 	background: #15232c;
 }
 body.dark .control-tabs.content-tabs >ul.nav-tabs li.active {
-	background: #15232c;
+	background: var(--drk-bg-color-c);
 }
 body.dark .control-tabs.content-tabs >ul.nav-tabs li {
-	border-right: 1px solid #565656;
+	border-top-color: var(--drk-border-color);
+	border-right-color: var(--drk-border-color);
+}
+body.dark .control-tabs.content-tabs >ul.nav-tabs li:first-child {
+	border-left-color: var(--drk-border-color);
 }
 body.dark .control-tabs.content-tabs >ul.nav-tabs:before {
 	background: #565656;
@@ -1417,6 +1424,34 @@ body.dark .control-table table th {
 body.dark .control-table td[data-column-type=checkbox] div[data-checkbox-element] {
 	background-color: #3c3a3a;
 	border-color: var(--drk-border-color);
+}
+
+
+/* eventlogs */
+body.dark .plugin-exception-beautifier .beautifier-message-container {
+	background: var(--drk-bg-color-c);
+}
+body.dark .plugin-exception-beautifier .beautifier-formatted-content,
+body.dark .plugin-exception-beautifier .beautifier-raw-content {
+	background: var(--drk-bg-color-c);
+}
+body.dark .plugin-exception-beautifier .beautifier-class {
+	color: #7d8f5a;
+}
+body.dark .plugin-exception-beautifier .beautifier-stacktrace-line:nth-child(odd) {
+	background-color: var(--drk-bg-color-b);
+}
+body.dark .plugin-exception-beautifier .beautifier-stacktrace-line:nth-child(even) {
+	background-color: var(--drk-bg-color-a);
+}
+body.dark .plugin-exception-beautifier .beautifier-stacktrace-line-number {
+	color: var(--drk-color);
+}
+body.dark .plugin-exception-beautifier .beautifier-file {
+	color: #03a9f4;
+}
+body.dark .plugin-exception-beautifier .beautifier-line-number {
+	color: red;
 }
 
 
