@@ -649,7 +649,7 @@ body.dark ul.tree-path li.root a {
 body.dark table.name-value-list td {
 	color: #31ac5f;
 }
-div.panel.border-left {
+body.dark div.panel.border-left {
 	border-left-color: var(--drk-border-color);
 }
 body.dark div.panel.border-right {
@@ -708,6 +708,12 @@ body.dark tr[data-item-type="file"] .item-title {
 }
 body.dark [data-control="preview-sidebar"] .panel [data-label="title"] {
 	color: #d16969;
+}
+body.dark div[data-control="media-manager"] .upload-progress {
+    background: inherit;
+}
+body.dark div[data-control="media-manager"] .upload-progress h5 {
+    color: var(--drk-color);
 }
 /* END - backend/media */
 
