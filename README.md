@@ -14,7 +14,7 @@ Plugin screenshot gallery: https://github.com/WebVPF/wn-darkbackend-plugin/issue
 composer require webvpf/wn-darkbackend-plugin
 ```
 
-## Custom skins
+## Styles
 
 When dark mode is enabled, the plugin script adds `dark` class for `body` tag. Therefore, to override the standard styles, you need to add `body.dark` before the selector name.
 
@@ -24,7 +24,9 @@ body.dark .className {
 }
 ```
 
----
+### CSS Variables
+
+https://github.com/WebVPF/wn-darkbackend-plugin/blob/master/assets/css/dark.css#L1-L11
 
 ## Translation for switch text
 
