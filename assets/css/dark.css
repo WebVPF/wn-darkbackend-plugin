@@ -384,7 +384,11 @@ body.dark .control-status-list >ul li .status-text.warning {
 	color: #ce9178;
 }
 body.dark .report-widget a:not(.btn) {
-	color: #569cd6;
+	color: #00b0b3;
+}
+body.dark .report-widget a:not(.btn):hover,
+body.dark .report-widget a:not(.btn):focus {
+    color: #00ffff;
 }
 body.dark .report-widget a:not(.btn).status-label.primary {
 	color: #fff;
@@ -1548,6 +1552,9 @@ body.dark #layout-side-panel .sidepanel-content-header {
 	background: #184d70;
 	color: var(--drk-color);
 }
+body.dark #layout-side-panel.layout-cell.w-350 {
+    background: var(--drk-bg-color-c);
+}
 body.dark .inspector-header {
 	background: var(--drk-bg-color-b);
 	color: var(--drk-color);
@@ -1596,4 +1603,39 @@ body.dark #builder-master-tabs .control-tabs >div >ul.nav-tabs >li a >span.title
 }
 body.dark .control-table table.headers:after {
 	border-bottom-color: var(--drk-border-color);
+}
+
+
+/* Winter.Docs */
+body.dark #docs-content h1,
+body.dark #docs-content h2 {
+    border-bottom-color: var(--drk-border-color);
+}
+body.dark #docs-content table tr {
+    background-color: var(--drk-bg-color-b);
+}
+body.dark #docs-content table tr:nth-child(2n) {
+    background-color: var(--drk-bg-color-c);
+}
+body.dark #docs-content table th,
+body.dark #docs-content table td {
+    border-color: var(--drk-border-color);
+}
+body.dark #docs-content blockquote {
+    background: var(--drk-bg-color-b);
+    border-color: var(--drk-border-color);
+    color: var(--drk-color);
+}
+body.dark #docs-content code {
+    display: inline-block;
+    padding: 0.2em 0.4em;
+    margin: 0;
+    font-size: 85%;
+    background: rgb(110 118 129 / 40%);
+    border-radius: 6px;
+    color: #c9d1d9;
+    border: 0;
+}
+body.dark #docs-content pre code {
+    background: #2c2f38;
 }
