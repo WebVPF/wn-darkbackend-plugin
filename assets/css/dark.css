@@ -1389,6 +1389,9 @@ body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title:
 body.dark .control-tabs >div >ul.nav-tabs >li a >span.title >span {
 	margin-top: -2px;
 }
+body.dark .control-tabs.secondary-tabs >div >ul.nav-tabs >li a >span.title >span {
+	border-top: 0;
+}
 /* End - Tabs */
 
 
