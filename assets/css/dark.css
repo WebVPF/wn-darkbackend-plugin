@@ -723,6 +723,10 @@ body.dark div[data-control="media-manager"] .upload-progress h5 {
 
 
 /* List - Список */
+body.dark .list-scrollable-container:after,
+body.dark .list-scrollable-container:before {
+    background: var(--drk-bg-color-a);
+}
 body.dark .list-widget table {
 	border-left: 1px solid var(--drk-border-color);
 }
