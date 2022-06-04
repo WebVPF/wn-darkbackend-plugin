@@ -869,6 +869,12 @@ body.dark .custom-radio label:before {
 	border: 1px solid #d6d6d6;
 	box-shadow: none;
 }
+body.dark .field-fileupload.style-file-single {
+    background-color: #000;
+    border-color: var(--drk-border-color);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 body.dark .field-fileupload.style-file-multi .upload-object:nth-child(odd) {
 	background-color: #3b3b3b;
 }
@@ -1471,6 +1477,24 @@ body.dark .plugin-exception-beautifier .beautifier-line-number {
 	color: red;
 }
 
+/* Import/Export */
+body.dark .import-behavior .import-file-columns,
+body.dark .import-behavior .import-db-columns {
+    background: var(--drk-bg-color-c);
+}
+body.dark .import-behavior ul li.dragged,
+body.dark .import-behavior .import-file-columns > ul > li,
+body.dark .import-behavior .import-db-columns > ul > li {
+    background: var(--drk-bg-color-a);
+    border-color: var(--drk-border-color);
+}
+body.dark .field-fileupload.style-file-single .upload-button:hover {
+    color: var(--drk-color);
+}
+body.dark .export-behavior .export-columns {
+    background: #010409;
+    border: solid 1px var(--drk-border-color);
+}
 
 /* Winter.Notes */
 body.dark .field-notes .field-notes-list {
