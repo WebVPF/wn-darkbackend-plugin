@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
         lang = document.querySelector('html').getAttribute('lang'),
         textCheckbox = {
             en: 'Dark Theme',
-            ru: 'Тёмная тема'
+            ru: 'Тёмная тема',
+            uk: 'Темна тема'
         },
         txtLang = textCheckbox[lang] ? textCheckbox[lang] : 'Dark Theme';
 
