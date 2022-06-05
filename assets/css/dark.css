@@ -1495,6 +1495,27 @@ body.dark .export-behavior .export-columns {
     background: #010409;
     border: solid 1px var(--drk-border-color);
 }
+body.dark .import-behavior .import-file-columns > ul div.import-column-name a.column-label {
+    color: var(--drk-color);
+}
+body.dark .import-behavior .import-column-bindings > ul {
+    background: var(--drk-bg-color-c);
+}
+body.dark .import-behavior .import-column-bindings > ul:after {
+    border-left-color: var(--drk-bg-color-a);
+}
+body.dark .import-behavior .import-column-bindings > ul:before {
+    color: #8b7964;
+}
+body.dark .import-behavior .import-column-bindings > ul > li:not(.dragged) {
+    background: var(--drk-bg-color-b);
+}
+body.dark .import-behavior .import-file-columns > ul div.import-column-name a.column-ignore-button {
+    background: var(--drk-border-color);
+}
+body.dark .import-behavior .import-column-bindings > ul > li:hover .column-icon {
+    color: var(--drk-color);
+}
 
 /* Winter.Notes */
 body.dark .field-notes .field-notes-list {
