@@ -1030,6 +1030,9 @@ body.dark .nested-form.panel-styles {
 	border-color: var(--drk-border-color);
 	box-shadow: inset 0 1px 0 rgb(0 154 247 / 25%), 0 1px 0 rgb(30 94 145);
 }
+body.dark .field-section {
+    border-bottom-color: var(--drk-border-color);
+}
 /* END - Form */
 
 
@@ -1156,6 +1159,10 @@ body.dark .modal-content {
 }
 body.dark .modal-header {
 	color: #e0dfdf;
+}
+body.dark .list-preview {
+    background: var(--drk-bg-color-c);
+    border-color: var(--drk-border-color);
 }
 body.dark .control-simplelist {
 	background: var(--drk-bg-color-c);
