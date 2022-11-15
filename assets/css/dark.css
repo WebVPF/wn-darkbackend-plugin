@@ -316,8 +316,11 @@ body.dark .select2-container--default .select2-results__option[aria-selected="tr
 }
 
 body.dark .control-balloon-selector ul li {
-	background: #3f4142;
+	background: #373838;
 	color: var(--drk-color);
+}
+body.dark .control-balloon-selector ul li.active {
+    background: #005087 !important;
 }
 
 
