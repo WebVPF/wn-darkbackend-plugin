@@ -1614,6 +1614,9 @@ body.dark #layout-side-panel .sidepanel-content-header {
 	background: #184d70;
 	color: var(--drk-color);
 }
+body.dark #layout-side-panel .sidepanel-content-header:after {
+    border-top-color: #184d70;
+}
 body.dark #layout-side-panel.layout-cell.w-350 {
     background: var(--drk-bg-color-c);
 }
