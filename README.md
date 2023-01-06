@@ -26,7 +26,30 @@ body.dark .className {
 
 ### CSS Variables
 
-https://github.com/WebVPF/wn-darkbackend-plugin/blob/master/assets/css/dark.css#L1-L11
+The plugin adds css variables to the backend:
+
+```css
+:root {
+    --drk-bg-color-a: #0d1117;
+    --drk-bg-color-b: #161b22;
+    --drk-bg-color-c: #1b222c;
+    --drk-bg-color-btn: #21262d;
+    --drk-bg-color-inset: #010409;
+    --drk-bg-color-fancy: #254a5f;
+    --drk-color: #c9d1d9;
+    --drk-color-danger: #f85149;
+    --drk-border-color: #30363d;
+    --drk-box-shadow: 0 8px 24px #010409;
+}
+```
+
+An example of using css variables:
+
+```css
+body.dark .myClassName {
+    background: var(--drk-bg-color-a);
+}
+```
 
 ## Translation for switch text
 
