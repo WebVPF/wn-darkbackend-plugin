@@ -1,38 +1,69 @@
-document.addEventListener("DOMContentLoaded", () => {
-    let theme = localStorage.getItem('backendTheme'),
-        $body = document.querySelector('body'),
-        lang = document.querySelector('html').getAttribute('lang'),
-        textCheckbox = {
-            en: 'Dark Theme',
-            ru: 'Тёмная тема',
-            uk: 'Темна тема'
-        },
-        txtLang = textCheckbox[lang] ? textCheckbox[lang] : 'Dark Theme';
+const darkBackend = {
+    keyStorageDarkBackend: 'backendTheme',
 
-    theme == 'dark' ? $body.classList.add('dark') : 0;
+    event() {
+        document.addEventListener('modeDarkEnabled', this.enable);
+        document.addEventListener('modeDarkDisabled', this.disable);
+    },
 
-    let toggleTheme = document.createElement('li');
-    toggleTheme.className = 'dark-theme';
-    toggleTheme.innerHTML = `<div class="checkbox custom-checkbox" style="margin:5px 30px 4px"><label for="darkTheme">${ txtLang }</label></div>`;
+    createCheck() {
+        let eventEnable = new Event('modeDarkEnabled'),
+            eventDisable = new Event('modeDarkDisabled');
 
-    let checkTheme = document.createElement('input');
-    checkTheme.id = 'darkTheme';
-    checkTheme.setAttribute('name', 'checkbox');
-    checkTheme.setAttribute('type', 'checkbox');
-    theme == 'dark' ? checkTheme.setAttribute('checked', 'checked') : 0;
+        let checkTheme = document.createElement('input');
+        checkTheme.id = 'darkTheme';
+        checkTheme.setAttribute('name', 'checkbox');
+        checkTheme.setAttribute('type', 'checkbox');
 
-    toggleTheme.querySelector('label').before(checkTheme);
+        localStorage.getItem(this.keyStorageDarkBackend) === 'dark' ? checkTheme.setAttribute('checked', 'checked') : 0;
 
-    document.querySelector('.mainmenu-accountmenu li.divider').before(toggleTheme);
+        checkTheme.addEventListener('input', () => {
+            document.dispatchEvent(checkTheme.checked ? eventEnable : eventDisable);
+        });
 
-    checkTheme.addEventListener('input', () => {
-        if (checkTheme.checked) {
-            $body.classList.add('dark');
-            localStorage.setItem('backendTheme', 'dark');
-        }
-        else {
-            $body.classList.remove('dark');
-            localStorage.removeItem('backendTheme');
-        }
-    });
-});
+        return checkTheme
+    },
+
+    createToggle() {
+        let lang = document.querySelector('html').getAttribute('lang'),
+            textCheckbox = {
+                en: 'Dark Theme',
+                ru: 'Тёмная тема',
+                uk: 'Темна тема'
+            },
+            txtLang = textCheckbox[lang] ? textCheckbox[lang] : textCheckbox['en'];
+
+        let toggleTheme = document.createElement('li');
+        toggleTheme.className = 'dark-theme';
+        toggleTheme.innerHTML = `<div class="checkbox custom-checkbox" style="margin:5px 30px 4px"><label for="darkTheme">${ txtLang }</label></div>`;
+        toggleTheme.querySelector('label').before( this.createCheck() );
+
+        return toggleTheme
+    },
+
+    disable() {
+        document.querySelector('body').classList.remove('dark');
+
+        localStorage.removeItem(this.keyStorageDarkBackend);
+    },
+
+    enable() {
+        document.querySelector('body').classList.add('dark');
+
+        localStorage.setItem(this.keyStorageDarkBackend, 'dark');
+    },
+
+    init() {
+        document.addEventListener('DOMContentLoaded', () => {
+            if (localStorage.getItem(this.keyStorageDarkBackend) === 'dark') {
+                document.querySelector('body').classList.add('dark')
+            }
+
+            document.querySelector('.mainmenu-accountmenu li.divider').before( this.createToggle() );
+        });
+
+        this.event();
+    }
+}
+
+darkBackend.init();

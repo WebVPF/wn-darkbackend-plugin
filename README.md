@@ -51,6 +51,20 @@ body.dark .myClassName {
 }
 ```
 
+## Events
+
+Turning dark mode on and off triggers `modeDarkEnabled` and `modeDarkDisabled` events. You can set listeners for these events:
+
+```js
+document.addEventListener('modeDarkEnabled', () => {
+    // code when dark mode is enabled
+});
+
+document.addEventListener('modeDarkDisabled', () => {
+    // code when dark mode is disabled
+});
+```
+
 ## Translation for switch text
 
 Write a comment here: https://github.com/WebVPF/wn-darkbackend-plugin/issues/1 where specify language code and translation for text **Dark Theme** in your language.
