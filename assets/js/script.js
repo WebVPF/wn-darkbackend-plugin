@@ -1,5 +1,5 @@
 const darkBackend = {
-    keyStorageDarkBackend: 'backendTheme',
+    keyStorage: 'backendTheme',
 
     event() {
         document.addEventListener('modeDarkEnabled', this.enable);
@@ -12,13 +12,14 @@ const darkBackend = {
 
         let checkTheme = document.createElement('input');
         checkTheme.id = 'darkTheme';
-        checkTheme.setAttribute('name', 'checkbox');
         checkTheme.setAttribute('type', 'checkbox');
 
-        localStorage.getItem(this.keyStorageDarkBackend) === 'dark' ? checkTheme.setAttribute('checked', 'checked') : 0;
+        if (localStorage.getItem(this.keyStorage) === 'dark') {
+            checkTheme.setAttribute('checked', 'checked')
+        }
 
         checkTheme.addEventListener('input', () => {
-            document.dispatchEvent(checkTheme.checked ? eventEnable : eventDisable);
+            document.dispatchEvent( checkTheme.checked ? eventEnable : eventDisable )
         });
 
         return checkTheme
@@ -34,8 +35,10 @@ const darkBackend = {
             txtLang = textCheckbox[lang] ? textCheckbox[lang] : textCheckbox['en'];
 
         let toggleTheme = document.createElement('li');
-        toggleTheme.className = 'dark-theme';
-        toggleTheme.innerHTML = `<div class="checkbox custom-checkbox" style="margin:5px 30px 4px"><label for="darkTheme">${ txtLang }</label></div>`;
+        toggleTheme.innerHTML = `<div class="checkbox custom-checkbox" style="margin:5px 30px 4px">
+                                     <label for="darkTheme">${ txtLang }</label>
+                                 </div>`;
+
         toggleTheme.querySelector('label').before( this.createCheck() );
 
         return toggleTheme
@@ -44,25 +47,25 @@ const darkBackend = {
     disable() {
         document.querySelector('body').classList.remove('dark');
 
-        localStorage.removeItem(this.keyStorageDarkBackend);
+        localStorage.removeItem(this.keyStorage);
     },
 
     enable() {
         document.querySelector('body').classList.add('dark');
 
-        localStorage.setItem(this.keyStorageDarkBackend, 'dark');
+        localStorage.setItem(this.keyStorage, 'dark');
     },
 
     init() {
         document.addEventListener('DOMContentLoaded', () => {
-            if (localStorage.getItem(this.keyStorageDarkBackend) === 'dark') {
+            if (localStorage.getItem(this.keyStorage) === 'dark') {
                 document.querySelector('body').classList.add('dark')
             }
 
-            document.querySelector('.mainmenu-accountmenu li.divider').before( this.createToggle() );
+            document.querySelector('.mainmenu-accountmenu li.divider').before( this.createToggle() )
         });
 
-        this.event();
+        this.event()
     }
 }
 
