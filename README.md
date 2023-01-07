@@ -51,6 +51,37 @@ body.dark .myClassName {
 }
 ```
 
+### Logo
+
+You can upload your logo for backend customization in **Customize back-end**
+
+```mermaid
+flowchart LR
+    Backend --> S[Settings]
+    S --> B[Customize back-end]
+    B --> Brand
+```
+
+If your logo is not suitable for the dark theme, then you can upload a separate dark theme logo to the media and write the following styles in **Customize back-end**
+
+```mermaid
+flowchart LR
+    Backend --> S[Settings]
+    S --> B[Customize back-end]
+    B --> Styles
+```
+
+```css
+body.dark .wn-logo {
+    background-image: url(/storage/app/media/logo-backend-dark.png);
+}
+body.dark .wn-logo-transparent {
+    background-image: url(/storage/app/media/logo-backend-dark.png) !important;
+}
+```
+
+![screen logo](https://user-images.githubusercontent.com/61043464/211161041-750dd82d-52ea-49a5-a96d-d8cfbbd43acc.jpg)
+
 ## Events
 
 Turning dark mode on and off triggers `modeDarkEnabled` and `modeDarkDisabled` events. You can set listeners for these events:
