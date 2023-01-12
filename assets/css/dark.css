@@ -346,9 +346,6 @@ body.dark .tooltip.right .tooltip-arrow {
 
 
 /* Dashboard */
-body.dark .report-container > ul .item {
-	background: #6f6f6f;
-}
 body.dark .report-widget {
 	background: var(--drk-bg-color-c);
 }
