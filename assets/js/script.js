@@ -2,8 +2,8 @@ const darkBackend = {
     keyStorage: 'backendTheme',
 
     event() {
-        document.addEventListener('modeDarkEnabled', this.enable);
-        document.addEventListener('modeDarkDisabled', this.disable);
+        document.addEventListener('modeDarkEnabled', this.enable.bind(this));
+        document.addEventListener('modeDarkDisabled', this.disable.bind(this));
     },
 
     createCheck() {
