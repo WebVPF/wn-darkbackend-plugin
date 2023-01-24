@@ -41,3 +41,4 @@
 1.1.13: Improving styles
 1.2.0: JavaScript rewritten, events added
 1.2.1: Removed borders on dashboard widgets
+1.2.2: Set context in calling methods from listeners
