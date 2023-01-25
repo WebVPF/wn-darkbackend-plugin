@@ -1683,7 +1683,9 @@ body.dark #builder-master-tabs .control-tabs >div >ul.nav-tabs >li a >span.title
 body.dark .control-table table.headers:after {
 	border-bottom-color: var(--drk-border-color);
 }
-
+body.dark div.control-table .toolbar a.builder-custom-table-button:before {
+    color: var(--drk-color);
+}
 
 /* Winter.Docs */
 body.dark #docs-content h1,
