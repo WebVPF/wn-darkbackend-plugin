@@ -6,7 +6,7 @@ This plugin adds a dark theme switch to the user’s menu in backend of site. No
 
 ![switch](https://user-images.githubusercontent.com/61043464/145829071-8ca9fd28-7928-49a6-8ccc-f45b08467102.jpg)
 
-Plugin screenshot gallery: https://github.com/WebVPF/wn-darkbackend-plugin/issues/6
+See [Plugin screenshot gallery](https://github.com/WebVPF/wn-darkbackend-plugin/issues/6)
 
 ## Installation Сomposer:
 
