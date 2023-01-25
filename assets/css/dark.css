@@ -317,11 +317,13 @@ body.dark .select2-container--default .select2-results__option[aria-selected="tr
 }
 
 body.dark .control-balloon-selector ul li {
-	background: #373838;
+	background: rgba(110,118,129,0.4);
 	color: var(--drk-color);
 }
-body.dark .control-balloon-selector ul li.active {
-    background: #005087 !important;
+body.dark .control-balloon-selector ul li.active,
+body.dark .control-balloon-selector:not(.control-disabled) ul li:hover {
+    background: #004ba9 !important;
+    color: #fff;
 }
 
 
