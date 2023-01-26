@@ -684,10 +684,9 @@ body.dark .control-table .control-scrollbar table.data tr:last-child td {
 	border-bottom-color: var(--drk-border-color);
 }
 body.dark .control-filter {
-	color: #fff;
-	background-color: #1a2938;
-	border-top: 1px solid #34495e;
-	border-bottom: 1px solid #34495e;
+    color: var(--drk-color);
+    background-color: var(--drk-bg-color-c);
+    border-color: var(--drk-border-color);
 }
 body.dark table.table.data {
 	border-bottom-color: var(--drk-border-color);
@@ -700,22 +699,22 @@ body.dark table.table.data thead {
 } */
 body.dark table.table.data tbody td,
 body.dark table.table.data tbody th {
-	color: var(--drk-color);
-	border-top: 1px solid var(--drk-border-color);
+    color: var(--drk-color);
+    border-top: 1px solid #21262d;
 }
 
 body.dark table.table.data tbody tr.rowlink:not(.nolink):active td {
 	background: #395169 !important;
-	color: var(--drk-color);;
+	color: var(--drk-color);
 }
 body.dark table.table.data tbody tr.rowlink:not(.nolink):hover td,
 body.dark table.table.data tbody tr:not(.no-data).selected td {
-	background: #192634 !important;
-	color: var(--drk-color);;
+    background: var(--drk-bg-color-b) !important;
+    color: var(--drk-color);
 }
 body.dark table.table.data tbody tr:nth-child(even) td,
 body.dark table.table.data tbody tr:nth-child(even) th {
-	background-color: #0c121a;
+	background-color: transparent;
 }
 body.dark table.table.data thead td >a,
 body.dark table.table.data thead th >a,
@@ -774,9 +773,8 @@ body.dark .control-filter-popover .filter-active-items a:hover {
 
 body.dark table.table.data thead td,
 body.dark table.table.data thead th {
-	border-top: 1px solid #34495e !important;
-	border-bottom: 1px solid #34495e !important;
-	border-color: #0180ff;
+    border-top: 1px solid #21262d !important;
+    border-bottom: 1px solid #21262d !important;
 }
 body.dark table.table.data .list-checkbox {
 	border-right: 1px solid #0180ff;
@@ -795,11 +793,9 @@ body.dark .table >tbody >tr.active >th,
 body.dark .table >tfoot >tr.active >th {
 	background-color: #1e1600;
 }
-body.dark table.table.data thead th.sort-asc.active {
-	background: #1e261e;
-}
+body.dark table.table.data thead th.sort-asc.active,
 body.dark table.table.data thead th.sort-desc.active {
-	background: #34495e;
+    background: var(--drk-bg-color-c);
 }
 body.dark table.table.data tbody tr.active:nth-child(even) td,
 body.dark table.table.data tbody tr.active:nth-child(even) th {
