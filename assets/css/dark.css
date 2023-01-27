@@ -85,6 +85,21 @@ body.dark .sidenav-tree ul.top-level >li >div.group:before,
 body.dark .sidenav-tree ul.top-level >li >div.group:after {
     border-top-color: #13171d;
 }
+body.dark .sidenav-tree ul.top-level>li>ul li a span.header {
+    color: var(--drk-color);
+}
+body.dark .sidenav-tree ul.top-level>li>ul li a span.description {
+    color: #707070;
+}
+body.dark .sidenav-tree div.scrollbar-thumb {
+    background: #1e304a !important;
+}
+body.dark .control-assetlist ul li:hover {
+    background: var(--drk-bg-color-b);
+}
+body.dark .control-assetlist ul li div.controls a.control {
+    color: var(--drk-color);
+}
 /* body.dark .layout-sidenav-container {
 	border-right: solid 1px var(--drk-border-color);
 } */
@@ -345,12 +360,17 @@ body.dark .report-widget a:not(.btn).status-label.primary {
 body.dark .control-chart div.chart-legend table {
 	color: #bbb;
 }
+
+
 body.dark .dropdown-menu .dropdown-container >ul {
-	background-color: var(--drk-bg-color-c);
-	box-shadow: var(--drk-box-shadow);
+    background-color: var(--drk-bg-color-c);
+    box-shadow: var(--drk-box-shadow);
+}
+body.dark .dropdown-menu .dropdown-container>ul:before {
+    border-bottom-color: var(--drk-border-color);
 }
 body.dark .dropdown-menu .dropdown-container >ul:after {
-	border-bottom-color: var(--drk-bg-color-c);
+    border-bottom-color: var(--drk-bg-color-c);
 }
 body.dark .dropdown-menu .dropdown-container >ul li.first-item a:hover:after,
 body.dark .dropdown-menu .dropdown-container >ul li.first-item a:focus:after,
@@ -387,15 +407,26 @@ body.dark .dropdown.dropup .dropdown-menu .dropdown-container >ul li.last-item a
 body.dark .dropdown.dropup .dropdown-menu .dropdown-container >ul li.last-item a:active:after {
 	border-top-color: #1f6feb;
 }
-body.dark .report-container .manage-widgets:hover {
-	border-color: #0f5acc;
-	color: #f0f6fc;
-	background-color: #1f6feb;
+body.dark .dropdown-menu .dropdown-container>ul li a[class^="wn-icon-"]:before,
+body.dark .dropdown-menu .dropdown-container>ul li a[class*=" wn-icon-"]:before,
+body.dark .dropdown-menu .dropdown-container>ul li a[class^="oc-icon-"]:before,
+body.dark .dropdown-menu .dropdown-container>ul li a[class*=" oc-icon-"]:before {
+    color: var(--drk-color);
 }
+
+
 body.dark .report-container .dropdown.open .manage-widgets {
 	background-color: #1f6feb;
 	color: #f0f6fc;
 	border-color: #0f5acc;
+}
+body.dark .report-container .manage-widgets {
+    border-color: var(--drk-border-color);
+}
+body.dark .report-container .manage-widgets:hover {
+    border-color: #0f5acc;
+    color: #f0f6fc;
+    background-color: #1f6feb;
 }
 /* END - Dashboard */
 
@@ -410,12 +441,12 @@ body.dark .control-filelist ul li a:hover {
 	background: rgb(110 118 129 / 10%);
 }
 body.dark .control-filelist ul li a span.title {
-	color: #c5c5c5;
+    color: var(--drk-color);
 }
 body.dark .control-filelist ul li.group >h4 a,
 body.dark .control-filelist ul li.group >div.group >h4 a,
 body.dark .control-filelist.component-list ul li div.group i {
-	color: #fff;
+    color: var(--drk-color);
 }
 body.dark .control-filelist ul li a span.description strong {
 	color: #569cd6;
@@ -504,7 +535,7 @@ body.dark div.control-componentlist div.components div.layout-cell > div a.remov
 }
 body.dark .component-list .components div.layout-cell > div span.description,
 body.dark div.control-componentlist div.components div.layout-cell > div span.description {
-	color: #bdb884;
+	color: #707070;
 }
 body.dark div.control-componentlist div.components div.layout-cell > div span.alias {
 	color: #7fffd4;
@@ -1854,6 +1885,9 @@ body.dark .control-filelist.filelist-hero ul li.separator h5 {
 }
 body.dark .control-filelist.filelist-hero ul li >a {
 	border-bottom-color: var(--drk-border-color);
+}
+body.dark .control-filelist.component-list ul li div.group span.description {
+    color: #707070;
 }
 /* body.dark .builder-building-area {
 	background: var(--drk-bg-color-a);
