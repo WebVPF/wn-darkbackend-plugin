@@ -1043,6 +1043,22 @@ body.dark .control-table td[data-column-type=dropdown] [data-view-container]:hov
 body.dark .control-table table.headers:after {
     border-bottom-color: var(--drk-border-color);
 }
+body.dark .control-table td[data-column-type=dropdown] [data-dropdown-open=true] {
+    background: var(--drk-bg-color-a);
+}
+body.dark .table-control-dropdown-list {
+    background: var(--drk-bg-color-b);
+    border-color: var(--drk-border-color);
+}
+body.dark .table-control-dropdown-list ul {
+    border-color: var(--drk-border-color);
+}
+body.dark .table-control-dropdown-list li {
+    color: var(--drk-color);
+}
+body.dark .table-control-dropdown-list li:hover {
+    background: var(--drk-bg-color-c);
+}
 /* END - Data table */
 
 /* Date picker */
