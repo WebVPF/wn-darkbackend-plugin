@@ -951,7 +951,7 @@ body.dark .field-section {
     border-bottom-color: var(--drk-border-color);
 }
 body.dark .field-section h4 {
-    color: #fa8072;
+    color: var(--drk-color);
 }
 /* END - Section */
 
@@ -1358,6 +1358,20 @@ body.dark .control-breadcrumb.breadcrumb-fancy li:not(:last-child)::before {
 body.dark.breadcrumb-fancy .control-breadcrumb li a,
 body.dark .control-breadcrumb.breadcrumb-fancy li a {
     color: #fff;
+}
+
+body.dark .fancy-layout *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.secondary-tabs.has-tabs>div.tab-content {
+    background: var(--drk-bg-color-a);
+}
+body.dark .fancy-layout *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.secondary-tabs>div>ul.nav-tabs {
+    background: var(--drk-bg-color-c);
+}
+body.dark .fancy-layout *:not(.nested-form)>.form-widget>.layout-row>.form-tabless-fields {
+    background: var(--drk-bg-color-fancy);
+}
+body.dark.fancy-layout .nested-form .form-tabless-fields,
+body.dark .fancy-layout .nested-form .form-tabless-fields {
+    background-color: var(--drk-bg-color-a);
 }
 /****************************************
  ******** END - fancy layout     ********
