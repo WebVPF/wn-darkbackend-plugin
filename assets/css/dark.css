@@ -682,16 +682,16 @@ body.dark table.table.data thead td >a,
 body.dark table.table.data thead th >a,
 body.dark table.table.data thead td >span,
 body.dark table.table.data thead th >span {
-	color: #deb887;
+    color: #858585;
 }
 body.dark .control-list table.table.data .list-setup a {
-	color: #deb887;
+    color: #858585;
 }
 body.dark table.table.data thead td >a:hover,
 body.dark table.table.data thead th >a:hover,
 body.dark table.table.data thead td >span:hover,
 body.dark table.table.data thead th >span:hover {
-	color: #daeb60;
+    color: var(--drk-color);
 }
 
 body.dark .control-filter a,
@@ -765,7 +765,7 @@ body.dark table.table.data tbody tr.active:nth-child(even) th {
 }
 
 body.dark .control-list p.no-data {
-	color: #d7ba7d;
+    color: var(--drk-color);
 }
 
 
@@ -1150,7 +1150,7 @@ body.dark .field-mediafinder.style-file-single .find-button {
 }
 body.dark .field-mediafinder.style-file-single .find-button:hover {
     color: var(--drk-color);
-    background-color: var(--drk-bg-color-btn);
+    background-color: #0654ca;
 }
 body.dark .field-mediafinder .find-object h4 {
     color: #ff7f50;
