@@ -512,18 +512,8 @@ body.dark div.control-componentlist div.components div.layout-cell > div span.al
 body.dark #cms-master-tabs .form-buttons .btn.btn-primary:hover {
 	background-color: transparent;
 }
-/* body.dark #cms-master-tabs .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title span {
-	background: #333;
-} */
 body.dark .control-componentlist.has-components {
 	background-color: var(--drk-bg-color-fancy);
-}
-body.dark #cms-master-tabs .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title >span {
-	border-top: solid 2px #555;
-	margin-top: -5px;
-}
-body.dark #cms-master-tabs .control-tabs.secondary-tabs >div >ul.nav-tabs >li a >span.title >span {
-	border-top: 0;
 }
 /* END - CMS */
 
@@ -638,9 +628,6 @@ body.dark table.table.data {
 body.dark table.table.data thead {
 	background: var(--drk-bg-color-b);
 }
-/* body.dark table.table.data tbody tr {
-	background: #2d2d2d;
-} */
 body.dark table.table.data tbody td,
 body.dark table.table.data tbody th {
     color: var(--drk-color);
@@ -1141,7 +1128,7 @@ body.dark .field-mediafinder .find-object h4 {
 
 /* Nested Form */
 body.dark .nested-form.panel-styles {
-    background: var(--drk-bg-color-c);
+    background: var(--drk-bg-color-a);
     border-color: var(--drk-border-color);
     box-shadow: inset 0 1px 0 rgb(0 154 247 / 25%), 0 1px 0 rgb(30 94 145);
 }
@@ -1218,8 +1205,9 @@ body.dark div[data-control="sensitive"] a[data-copy] {
 /**************************************************
  *************     fancy layout     ***************
  **************************************************/
- body.dark.fancy-layout .form-tabless-fields .form-control:focus,
- body.dark .fancy-layout .form-tabless-fields .form-control:focus {
+
+body.dark.fancy-layout .form-tabless-fields .form-control:focus,
+body.dark .fancy-layout .form-tabless-fields .form-control:focus {
     border-color: transparent;
     box-shadow: none;
 }
@@ -1243,27 +1231,16 @@ body.dark .fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li.active 
 body.dark .fancy-layout.control-tabs.primary-tabs >div >ul.nav-tabs >li.active a span.title {
 	background: var(--drk-bg-color-a);
 }
-/* body.dark .fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a span.title:before,
-body.dark .fancy-layout.control-tabs.primary-tabs >div >ul.nav-tabs >li.active a span.title:before,
-body.dark .fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a span.title:after,
-body.dark .fancy-layout.control-tabs.primary-tabs >div >ul.nav-tabs >li.active a span.title:after {
-	background: #333333;
-} */
 body.dark.fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li a span.title,
 body.dark.fancy-layout.control-tabs.primary-tabs >div >ul.nav-tabs >li a span.title,
 body.dark .fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li a span.title,
 body.dark .fancy-layout.control-tabs.primary-tabs >div >ul.nav-tabs >li a span.title {
-    background: var(--drk-bg-color-a);
+    background: var(--drk-bg-color-c);
 }
 body.dark.fancy-layout .form-buttons .btn,
 body.dark .fancy-layout .form-buttons .btn {
     border: 0;
     background: transparent;
-}
-body.dark #cms-master-tabs.fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li a span.title {
-	margin: -2px 0px;
-	background: var(--drk-bg-color-a);
-	padding: 5px 5px 3px 5px;
 }
 body.dark.fancy-layout .control-tabs.master-tabs>div>div.tabs-container>ul.nav-tabs>li.active a>span.title,
 body.dark.fancy-layout.control-tabs.master-tabs>div>div.tabs-container>ul.nav-tabs>li.active a>span.title,
@@ -1304,7 +1281,20 @@ body.dark .fancy-layout .control-tabs.primary-tabs.master-area>div>ul.nav-tabs,
 body.dark .fancy-layout.control-tabs.primary-tabs.master-area>div>ul.nav-tabs {
     background: var(--drk-bg-color-fancy);
 }
-
+body.dark.fancy-layout .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:before,
+body.dark .fancy-layout .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:before,
+body.dark.fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:before,
+body.dark .fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:before,
+body.dark.fancy-layout .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:before,
+body.dark .fancy-layout .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:before,
+body.dark.fancy-layout .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:after,
+body.dark .fancy-layout .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:after,
+body.dark.fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:after,
+body.dark .fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:after,
+body.dark.fancy-layout .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:after,
+body.dark .fancy-layout .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:after {
+    background: var(--drk-bg-color-c);
+}
 body.dark.fancy-layout .control-tabs.secondary-tabs >div >ul.nav-tabs,
 body.dark .fancy-layout .control-tabs.secondary-tabs >div >ul.nav-tabs {
     background-color: var(--drk-bg-color-b);
@@ -1314,6 +1304,14 @@ body.dark .control-breadcrumb.breadcrumb-fancy {
     background-color: #1e3d4e;
     border: 0;
 }
+body.dark.breadcrumb-fancy .control-breadcrumb li,
+body.dark .control-breadcrumb.breadcrumb-fancy li {
+    background-color: #1a3746;
+}
+body.dark.breadcrumb-fancy .control-breadcrumb li::after,
+body.dark .control-breadcrumb.breadcrumb-fancy li::after {
+    border-left-color: #1a3746;
+}
 body.dark.breadcrumb-fancy .control-breadcrumb li:last-child,
 body.dark .control-breadcrumb.breadcrumb-fancy li:last-child {
     background-color: #1e3d4e;
@@ -1322,16 +1320,8 @@ body.dark.breadcrumb-fancy .control-breadcrumb li:last-child::before,
 body.dark .control-breadcrumb.breadcrumb-fancy li:last-child::before {
     border-left-color: #1e3d4e;
 }
-body.dark.breadcrumb-fancy .control-breadcrumb li,
-body.dark .control-breadcrumb.breadcrumb-fancy li {
-    background-color: #1a3746;
-}
 body.dark.breadcrumb-fancy .control-breadcrumb li:not(:last-child)::before,
 body.dark .control-breadcrumb.breadcrumb-fancy li:not(:last-child)::before {
-    border-left-color: #1a3746;
-}
-body.dark.breadcrumb-fancy .control-breadcrumb li::after,
-body.dark .control-breadcrumb.breadcrumb-fancy li::after {
     border-left-color: #1a3746;
 }
 body.dark.breadcrumb-fancy .control-breadcrumb li a,
@@ -1623,16 +1613,13 @@ body.dark .theme-selector-layout .layout-row.links .theme-description {
 
 
 /* Tabs */
-body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title {
-	padding: 2px 25px 0px 25px;
-}
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:before,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:before,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:before,
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:after {
-	background: var(--drk-bg-color-a);
+    background: var(--drk-bg-color-a);
 }
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li.active a >span.title:before,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title:before,
@@ -1640,41 +1627,30 @@ body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li.active a >span.t
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li.active a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li.active a >span.title:after {
-	border-color: #555;
-}
-body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:before,
-body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:before,
-body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:before,
-body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:after,
-body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:after,
-body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:after {
-	border-top: 2px solid #555;
+    border-color: var(--drk-border-color);
 }
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li.active a >span.title span,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title span,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li.active a >span.title span {
-	color: #fff;
-	border-top-color: #555;
+    color: var(--drk-color);
+    border-top-color: var(--drk-border-color);
 }
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li.active a:before,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a:before,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li.active a:before {
 	background-color: var(--drk-bg-color-a);
 }
+body.dark .control-tabs >div >ul.nav-tabs >li a >span.title >span,
 body.dark .control-tabs.primary-tabs >ul.nav-tabs:before,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs:before,
-body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs:before {
-	border-bottom: 2px solid #555;
-}
-body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:before,
+body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs:before,
+body.dark .control-tabs.primary-tabs>ul.nav-tabs>li a>span.title:before,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:before,
-body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:before {
-	border-left: 2px solid #555;
-}
+body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:before,
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:after,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:after {
-	border-right: 2px solid #555;
+    border-color: var(--drk-border-color);
 }
 body.dark .control-tabs.secondary-tabs>ul.nav-tabs>li,
 body.dark .control-tabs.secondary-tabs>div>ul.nav-tabs>li,
@@ -1718,18 +1694,9 @@ body.dark .control-tabs.content-tabs >ul.nav-tabs li:first-child {
 body.dark .control-tabs.content-tabs >ul.nav-tabs:before {
 	background: #565656;
 }
-body.dark .control-tabs >div >ul.nav-tabs >li a >span.title >span {
-	border-top: 2px solid #555;
-}
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title:before,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title:after {
 	background: var(--drk-bg-color-a);
-}
-body.dark .control-tabs >div >ul.nav-tabs >li a >span.title >span {
-	margin-top: -2px;
-}
-body.dark .control-tabs.secondary-tabs >div >ul.nav-tabs >li a >span.title >span {
-	border-top: 0;
 }
 /* End - Tabs */
 
