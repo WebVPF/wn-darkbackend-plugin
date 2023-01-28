@@ -21,6 +21,12 @@ body.dark .layout-cell.wn-logo-transparent:after {
     background: transparent;
 }
 
+body.dark .nav>li>a:hover,
+body.dark .nav>li>a:focus {
+    background: rgb(110 118 129 / 10%);
+    color: var(--drk-color);
+}
+
 
 body.dark nav#layout-mainmenu {
     background-color: var(--drk-bg-color-b);
@@ -186,7 +192,7 @@ body.dark .btn-default:active,
 body.dark a.btn-default:hover,
 body.dark a.btn-default:focus,
 body.dark a.btn-default:active {
-    background-color: #0654ca;
+    background-color: #263850;
 }
 body.dark .btn-success,
 body.dark a.btn-success {
@@ -594,11 +600,6 @@ body.dark div[data-control="media-manager"] .sidebar-image-placeholder i.icon-le
 body.dark div[data-control="media-manager"] .sidebar-image-placeholder p {
 	color: #d16969;
 	background: #fff;
-}
-body.dark #MediaManager-manager-filters .nav >li >a:hover,
-body.dark #MediaManager-manager-filters .nav >li >a:focus {
-	background: var(--drk-bg-color-btn);
-	color: var(--drk-color);
 }
 body.dark div[data-control="media-manager"] .media-list.list li {
     background: var(--drk-bg-color-c);
@@ -1356,10 +1357,6 @@ body.dark.fancy-layout .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >
 body.dark .fancy-layout .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:after {
     background: transparent;
 }
-body.dark.fancy-layout .control-tabs.secondary-tabs >div >ul.nav-tabs,
-body.dark .fancy-layout .control-tabs.secondary-tabs >div >ul.nav-tabs {
-    background-color: var(--drk-bg-color-b);
-}
 body.dark.breadcrumb-fancy .control-breadcrumb,
 body.dark .control-breadcrumb.breadcrumb-fancy {
     background-color: #1e3d4e;
@@ -1763,6 +1760,12 @@ body.dark .control-tabs.secondary-tabs>div>ul.nav-tabs>li,
 body.dark .control-tabs.secondary-tabs>div>div>ul.nav-tabs>li {
     border-color: #707070;
 }
+body.dark .control-tabs >div >ul.nav-tabs >li a {
+    color: #707070;
+}
+body.dark .control-tabs >div >ul.nav-tabs >li a:hover {
+    color: var(--drk-color);
+}
 body.dark .control-tabs >ul.nav-tabs >li.active a,
 body.dark .control-tabs >div >ul.nav-tabs >li.active a,
 body.dark .control-tabs >div >div >ul.nav-tabs >li.active a,
@@ -1771,13 +1774,9 @@ body.dark .control-tabs >div >ul.nav-tabs >li.active a:hover,
 body.dark .control-tabs >div >div >ul.nav-tabs >li.active a:hover {
     color: var(--drk-color);
 }
-body.dark .control-tabs >div >ul.nav-tabs >li a {
-    color: #707070;
+body.dark .control-tabs >ul.nav-tabs >li.active a:hover {
+    background: var(--drk-bg-color-a);
 }
-body.dark .control-tabs >div >ul.nav-tabs >li a:hover {
-    color: var(--drk-color);
-}
-
 body.dark .layout-cell.w-300.form-sidebar.control-scrollpanel {
     background-color: var(--drk-bg-color-c);
     border-left: 1px solid var(--drk-border-color);
@@ -1788,21 +1787,37 @@ body.dark .control-tabs.content-tabs >.tab-content >.tab-pane div.padded-contain
 body.dark .control-tabs.content-tabs >.tab-content >.tab-pane div.toolbar-widget {
     background: var(--drk-bg-color-a);
 }
-body.dark .control-tabs.content-tabs >ul.nav-tabs li.active {
-	background: var(--drk-bg-color-c);
+body.dark .control-tabs.content-tabs >ul.nav-tabs:before {
+    background: var(--drk-border-color);
 }
 body.dark .control-tabs.content-tabs >ul.nav-tabs li {
     border-color: var(--drk-border-color);
 }
 body.dark .control-tabs.content-tabs >ul.nav-tabs li:first-child {
-	border-left-color: var(--drk-border-color);
+    border-left-color: var(--drk-border-color);
 }
-body.dark .control-tabs.content-tabs >ul.nav-tabs:before {
-	background: #565656;
+body.dark .control-tabs.content-tabs >ul.nav-tabs li.active {
+    background: var(--drk-bg-color-a);
+}
+body.dark .control-tabs.content-tabs.tabs-flush>ul.nav-tabs li.active:last-child {
+    border-color: var(--drk-border-color);
+}
+body.dark .control-tabs>ul.nav-tabs>li a,
+body.dark .control-tabs>div>ul.nav-tabs>li a,
+body.dark .control-tabs>div>div>ul.nav-tabs>li a {
+    color: #757575;
+}
+body.dark .control-tabs>ul.nav-tabs>li a:hover,
+body.dark .control-tabs>ul.nav-tabs>li a:focus,
+body.dark .control-tabs>div>ul.nav-tabs>li a:hover,
+body.dark .control-tabs>div>ul.nav-tabs>li a:focus,
+body.dark .control-tabs>div>div>ul.nav-tabs>li a:hover,
+body.dark .control-tabs>div>div>ul.nav-tabs>li a:focus {
+    color: var(--drk-color);
 }
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title:before,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title:after {
-	background: var(--drk-bg-color-a);
+    background: var(--drk-bg-color-a);
 }
 /* End - Tabs */
 
