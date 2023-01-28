@@ -1141,6 +1141,125 @@ body.dark .field-fileupload.style-image-multi .upload-object .icon-container {
 /* END - Icon Picker */
 
 /* Markdown editor */
+body.dark .field-markdowneditor {
+    background: var(--drk-bg-color-a);
+    border-color: var(--drk-border-color);
+}
+body.dark .field-markdowneditor.editor-focus {
+    border-color: #27709c;
+}
+body.dark .field-markdowneditor .control-toolbar.editor-toolbar {
+    background: var(--drk-bg-color-b);
+    border-color: var(--drk-border-color);
+}
+body.dark .field-markdowneditor .control-toolbar.editor-toolbar .toolbar-item .btn {
+    color: #757575;
+}
+body.dark .field-markdowneditor .control-toolbar.editor-toolbar .toolbar-item .btn:hover {
+    background-color: #263850;
+    color: var(--drk-color);
+}
+body.dark .field-markdowneditor .control-toolbar.editor-toolbar .toolbar-item .btn.active,
+body.dark .field-markdowneditor .control-toolbar.editor-toolbar .toolbar-item .btn:active {
+    background-color: #263850;
+    color: var(--drk-color);
+}
+body.dark .field-markdowneditor .ace-github {
+    background: var(--drk-bg-color-a);
+    color: var(--drk-color);
+}
+body.dark .field-markdowneditor .ace-github .ace_cursor {
+    color: #27709c;
+}
+body.dark .field-markdowneditor .ace-github .ace_marker-layer .ace_bracket {
+    border-color: #27709c;
+}
+body.dark .field-markdowneditor .ace-github .ace_marker-layer .ace_selection {
+    background: #263850;
+}
+body.dark .field-markdowneditor .ace-github .ace_marker-layer .ace_selected-word {
+    background: #263850;
+    border-color: #31527e;
+}
+body.dark .field-markdowneditor .ace-github .ace_string {
+    color: #a5d6ff;
+}
+body.dark .field-markdowneditor .ace-github .ace_constant {
+    color: #7ee787;
+}
+body.dark .field-markdowneditor .ace-github .ace_constant.ace_numeric {
+    color: #79c0ff;
+}
+body.dark .field-markdowneditor .ace-github .ace_storage.ace_type {
+    color: #ff7b72;
+}
+body.dark .field-markdowneditor .ace-github .ace_keyword {
+    color: #ff7b72;
+}
+body.dark .field-markdowneditor .ace-github .ace_keyword.ace_operator {
+    color: #79c0ff;
+}
+body.dark .field-markdowneditor .ace-github .ace_identifier {
+    color: #d2a8ff;
+}
+body.dark .field-markdowneditor .ace-github .ace_variable.ace_language {
+    color: #c9d1d9;
+}
+body.dark .field-markdowneditor .ace-github .ace_entity.ace_name.ace_function {
+    color: #d2a8ff;
+}
+body.dark .field-markdowneditor .ace-github .ace_support.ace_type {
+    color: #79c0ff;
+}
+body.dark .field-markdowneditor.mode-split .editor-write .editor-code {
+    border-right-color: var(--drk-border-color);
+}
+body.dark .field-markdowneditor .editor-preview {
+    color: var(--drk-color);
+}
+body.dark .field-markdowneditor .editor-preview pre.prettyprint {
+    background-color: #161b22;
+}
+body.dark .field-markdowneditor .editor-preview pre .com {
+    color: #8b949e;
+}
+body.dark .field-markdowneditor .editor-preview pre .pln {
+    color: #c9d1d9;
+}
+body.dark .field-markdowneditor .editor-preview pre .language-js .str,
+body.dark .field-markdowneditor .editor-preview pre .language-javascript .str {
+    color: #a5d6ff;
+}
+body.dark .field-markdowneditor .editor-preview pre .language-js .kwd,
+body.dark .field-markdowneditor .editor-preview pre .language-javascript .kwd {
+    color: #ff7b72;
+}
+body.dark .field-markdowneditor .editor-preview pre .language-js .lit,
+body.dark .field-markdowneditor .editor-preview pre .language-javascript .lit {
+    color: #79c0ff;
+}
+
+body.dark .field-markdowneditor .editor-preview pre .language-css .pln {
+    color: #79c0ff;
+}
+body.dark .field-markdowneditor .editor-preview pre .language-css .kwd {
+    color: #d2a8ff;
+}
+body.dark .field-markdowneditor .editor-preview pre .language-css .lit {
+    color: #79c0ff;
+}
+body.dark .field-markdowneditor .editor-preview pre .language-html .dec {
+    color: #79c0ff;
+}
+body.dark .field-markdowneditor .editor-preview pre .language-html .tag {
+    color: #7ee787;
+}
+body.dark .field-markdowneditor .editor-preview pre .language-html .atn {
+    color: #79c0ff;
+}
+body.dark .field-markdowneditor .editor-preview pre .language-html .atv {
+    color: #a5d6ff;
+}
 /* END - Markdown editor */
 
 /* Media finder */
