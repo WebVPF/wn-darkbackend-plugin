@@ -760,6 +760,12 @@ body.dark table.table.data thead th.sort-asc.active,
 body.dark table.table.data thead th.sort-desc.active {
     background: var(--drk-bg-color-c);
 }
+body.dark table.table.data thead td.active>span:after,
+body.dark table.table.data thead th.active>span:after,
+body.dark table.table.data thead td.active>a:after,
+body.dark table.table.data thead th.active>a:after {
+    color: #7ee787;
+}
 body.dark table.table.data tbody tr.active:nth-child(even) td,
 body.dark table.table.data tbody tr.active:nth-child(even) th {
 	background-color: #28200a;
@@ -1779,19 +1785,19 @@ body.dark .callout.callout-danger >.content {
 
 /* permission editor */
 body.dark .permissioneditor table th {
-	color: var(--drk-color);
-	border-bottom: 1px solid var(--drk-border-color);
-	font-weight: 600;
-	font-size: 16px;
+    color: var(--drk-color);
+    border-color: var(--drk-border-color);
+    font-weight: 600;
+    font-size: 16px;
 }
 body.dark .permissioneditor table td {
-	border-bottom: 1px solid var(--drk-bg-color-b);
+    border-color: var(--drk-border-color);
 }
 body.dark .permissioneditor table tr:hover td {
-	background: var(--drk-bg-color-b);
+    background: var(--drk-bg-color-b);
 }
 body.dark .permissioneditor table td.permission-name {
-	color: #3fb950;
+    color: #7ee787;
 }
 
 
@@ -1818,7 +1824,7 @@ body.dark .theme-selector-layout .find-more-themes:hover {
 	background: #283fc2;
 }
 body.dark .theme-selector-layout .theme-description h3 {
-	color: #f9e23d;
+    color: var(--drk-color);
 }
 body.dark .theme-selector-layout .theme-description p.description {
 	color: var(--drk-color);
