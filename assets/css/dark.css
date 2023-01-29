@@ -984,7 +984,20 @@ body.dark .custom-switch input:checked ~ span {
 
 /* Code editor */
 body.dark .field-codeeditor {
+    border-color: var(--drk-border-color);
+}
+body.dark .field-codeeditor.editor-focus {
     border-color: #27709c;
+}
+body.dark .editor-code.ace_editor.ace_dark {
+    background: var(--drk-bg-color-b);
+}
+body.dark .editor-code.ace_dark .ace_gutter {
+    background: var(--drk-bg-color-c);
+    color: #757575;
+}
+body.dark .fancy-layout *:not(.nested-form)>.form-widget>.layout-row>.control-tabs>.tab-content>.tab-pane>.form-group>.field-codeeditor {
+    border-top: solid 1px var(--drk-border-color) !important;
 }
 /* END - Code editor */
 
