@@ -1355,6 +1355,13 @@ body.dark .field-repeater li.field-repeater-item {
     border-color: var(--drk-border-color);
     box-shadow: none;
 }
+body.dark .field-repeater li.field-repeater-item:before {
+    color: #283fc2;
+}
+body.dark .field-repeater li.field-repeater-item .repeater-item-handle {
+    background: var(--drk-bg-color-fancy);
+    color: var(--drk-color-a);
+}
 /* END - Repeater */
 
 /* Rich editor */
@@ -1402,6 +1409,14 @@ body.dark .fancy-layout .form-tabless-fields .form-control:focus {
 body.dark.fancy-layout.control-tabs.master-tabs>div>div.tabs-container,
 body.dark .fancy-layout.control-tabs.master-tabs>div>div.tabs-container {
     background: #1f3f50;
+}
+body.dark .fancy-layout *:not(.nested-form)>.form-widget>.layout-row>.form-tabless-fields .loading-indicator-container .loading-indicator {
+    background: var(--drk-bg-color-fancy);
+}
+body.dark .fancy-layout *:not(.nested-form)>.form-widget>.layout-row>.form-tabless-fields input[type=text].form-control[disabled],
+body.dark .fancy-layout *:not(.nested-form)>.form-widget>.layout-row>.form-tabless-fields .form-control[readonly],
+body.dark .fancy-layout *:not(.nested-form)>.form-widget>.layout-row>.form-tabless-fields fieldset[disabled] .form-control {
+    background: var(--drk-bg-color-fancy) !important;
 }
 body.dark.fancy-layout .control-tabs.has-tabs>div.tab-content,
 body.dark.fancy-layout.control-tabs.has-tabs>div.tab-content,
@@ -1572,11 +1587,20 @@ body.dark.fancy-layout *:not(.nested-form)>.form-widget>.layout-row>.control-tab
 
 
 /* reorder Tree List */
+body.dark .control-treelist ol ol {
+    border-left-color: #1f6feb;
+}
+body.dark .control-treelist li>div.record:before {
+    color: #1f6feb;
+}
 body.dark .control-treelist li>div.record>span {
-    color: #707070;
+    color: var(--drk-color-b);
+}
+body.dark .control-treelist li>div.record>a.move {
+    color: var(--drk-color-b);
 }
 body.dark .control-treelist li>div.record>a.move:hover {
-    color: #fff;
+    color: #1f6feb;
 }
 body.dark .control-treelist li.dragged>div.record {
     background: var(--drk-bg-color-c) !important;
@@ -1962,9 +1986,19 @@ body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title:
 /* End - Tabs */
 
 
+/* Scoreboard */
+body.dark .title-value h4 {
+    color: var(--drk-color-b);
+}
+body.dark .title-value p {
+    color: var(--drk-color-a);
+}
+/* End - Tabs */
+
+
 /* eventlogs */
 body.dark .plugin-exception-beautifier .beautifier-message-container {
-	background: var(--drk-bg-color-c);
+    background: var(--drk-bg-color-a);
 }
 body.dark .plugin-exception-beautifier .beautifier-formatted-content,
 body.dark .plugin-exception-beautifier .beautifier-raw-content {
@@ -1987,6 +2021,10 @@ body.dark .plugin-exception-beautifier .beautifier-file {
 }
 body.dark .plugin-exception-beautifier .beautifier-line-number {
 	color: red;
+}
+body.dark .plugin-exception-beautifier .beautifier-toggle-stacktrace {
+    background: #263850;
+    color: var(--drk-color-b);
 }
 
 /* Import/Export */
