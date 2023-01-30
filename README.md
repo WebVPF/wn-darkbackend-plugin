@@ -41,6 +41,8 @@ The plugin adds css variables to the backend:
     --drk-color-danger: #f85149;
     --drk-border-color: #30363d;
     --drk-btn-bg-color: #21262d;
+    --drk-hover-bg-color-a: #1f242c;
+    --drk-hover-bg-color-b: #263850;
     --drk-box-shadow: 0 8px 24px #010409;
 }
 ```
