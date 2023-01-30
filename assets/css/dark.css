@@ -184,7 +184,7 @@ body.dark a.btn-primary:active {
 }
 body.dark .btn-default,
 body.dark a.btn-default {
-    color: var(--drk-color-a);
+    color: var(--drk-color-b);
     background: var(--drk-btn-bg-color);
     border: solid 1px var(--drk-border-color);
 }
@@ -195,6 +195,7 @@ body.dark a.btn-default:hover,
 body.dark a.btn-default:focus,
 body.dark a.btn-default:active {
     background-color: #263850;
+    color: var(--drk-color-a);
 }
 body.dark .btn-success,
 body.dark a.btn-success {
