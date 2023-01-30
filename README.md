@@ -33,7 +33,7 @@ The plugin adds css variables to the backend:
     --drk-bg-color-a: #0d1117;
     --drk-bg-color-b: #161b22;
     --drk-bg-color-c: #1b222c;
-    --drk-bg-color-fancy: #254a5f;
+    --drk-bg-color-fancy: #183b4e;
     --drk-bg-color-inset: #010409;
     --drk-color-a: #c9d1d9;
     --drk-color-b: #8b949e;
