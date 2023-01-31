@@ -188,6 +188,11 @@ body.dark a.btn-default {
     background: var(--drk-btn-bg-color);
     border: solid 1px var(--drk-border-color);
 }
+body.dark .btn-default.on,
+body.dark a.btn-default.on {
+    background: var(--drk-hover-bg-color-b);
+    color: var(--drk-color-a);
+}
 body.dark .btn-default:hover,
 body.dark .btn-default:focus,
 body.dark .btn-default:active,
@@ -604,8 +609,11 @@ body.dark div[data-control="media-manager"] .sidebar-image-placeholder {
     background-color: var(--drk-bg-color-a);
     border-color: var(--drk-border-color);
 }
+body.dark div[data-control="media-manager"] .sidebar-image-placeholder i.icon-crop {
+    color: var(--drk-color-b);
+}
 body.dark div[data-control="media-manager"] .sidebar-image-placeholder i.icon-level-up {
-	color: #d16969;
+    color: var(--drk-color-a);
 }
 /* body.dark div[data-control="media-manager"] .sidebar-image-placeholder p {
 	color: #d16969;
@@ -615,23 +623,81 @@ body.dark div[data-control="media-manager"] .media-list.list li {
     background: var(--drk-bg-color-c);
     border-color: var(--drk-border-color);
 }
+body.dark div[data-control="media-manager"] .media-list.list li[data-root] {
+    background: var(--drk-bg-color-a);
+}
+body.dark div[data-control="media-manager"] .media-list.list li[data-root] .icon-folder:before {
+    content: "\f3bf";
+}
+body.dark div[data-control="media-manager"] .media-list li[data-root][data-item-type=folder] i.icon-folder:before {
+    content: "\f3bf";
+}
+body.dark div[data-control="media-manager"] .media-list.list li.selected {
+    background: var(--drk-bg-color-a) !important;
+    border-color: #1F99DC;
+}
 body.dark:not(.no-select) div[data-control="media-manager"] .media-list.list li:hover {
+    background: var(--drk-bg-color-c) !important;
+    border-color: #1F99DC;
+}
+body.dark div[data-control="media-manager"] .media-list.list li[data-root]:hover {
     background: var(--drk-bg-color-a) !important;
 }
+body.dark div[data-control="media-manager"] .media-list.list li[data-root] .icon-container,
+body.dark div[data-control="media-manager"] .media-list.list li[data-root]:hover .icon-container {
+    border-color: transparent !important;
+}
+body.dark:not(.no-select) div[data-control="media-manager"] .media-list.tiles li:hover .icon-container {
+    background: var(--drk-bg-color-c) !important;
+    border-color: #1F99DC;
+}
+body.dark:not(.no-select) div[data-control="media-manager"] .media-list.tiles li:hover .icon-container i,
+body.dark:not(.no-select) div[data-control="media-manager"] .media-list.tiles li:hover .icon-container p {
+    color: #1F99DC;
+}
+body.dark:not(.no-select) div[data-control="media-manager"] .media-list.list li:hover i {
+    color: #1F99DC;
+}
+body.dark:not(.no-select) div[data-control="media-manager"] .media-list.list li:hover p.size {
+    color: var(--drk-color-a);
+}
+body.dark div[data-control="media-manager"] .media-list.tiles li .icon-container {
+    background: var(--drk-bg-color-c);
+    border-color: var(--drk-border-color);
+}
+body.dark div[data-control="media-manager"] .media-list.tiles li[data-root] .icon-container {
+    background: var(--drk-bg-color-a);
+}
+body.dark div[data-control="media-manager"] .media-list.list li .icon-container {
+    border-color: var(--drk-border-color);
+}
+body.dark div[data-control="media-manager"] .media-list.list li .icon-container.image {
+    border-color: var(--drk-border-color) !important;
+}
 body.dark div[data-control="media-manager"] .media-list li h4 {
-	color: #ff9800;
+    color: var(--drk-color-a);
 }
 body.dark div[data-control="media-manager"] .media-list li[data-item-type="folder"] h4 {
-	color: #d16969;
+    color: var(--drk-color-b);
+}
+body.dark div[data-control="media-manager"] .media-list li p.size {
+    color: var(--drk-color-c);
 }
 body.dark div[data-control="media-manager"] .media-list li[data-item-type="file"] h4 {
-	color: #ffc107;
+    color: var(--drk-color-a);
+}
+body.dark div[data-control="media-manager"] .media-list li[data-item-type=folder] i {
+    color: var(--drk-color-c);
 }
 body.dark div[data-control="media-manager"] table.table tr[data-item-type=folder] i.icon-folder {
 	color: #ce9178;
 }
+body.dark div[data-control="media-manager"] table.table tr[data-item-type=folder][data-root] i.icon-folder:before {
+    content: "\f3bf";
+    color: var(--drk-color-b);
+}
 body.dark div[data-control="media-manager"] table.table tr[data-item-type=folder].selected i.icon-folder {
-	color: inherit;
+    color: inherit;
 }
 /* body.dark tr[data-item-type="file"] .item-title {
 	color: #00ffff;
@@ -1170,6 +1236,9 @@ body.dark .field-fileupload.style-file-multi .upload-files-container {
 body.dark .field-fileupload.style-image-multi .upload-object .icon-container {
     border-color: var(--drk-border-color);
 }
+body.dark .field-fileupload.style-image-multi .upload-button:hover .upload-button-icon:before {
+    color: #1F99DC;
+}
 /* END - File upload */
 
 /* Icon Picker */
@@ -1298,6 +1367,11 @@ body.dark .field-markdowneditor .editor-preview pre .language-html .atv {
 /* END - Markdown editor */
 
 /* Media finder */
+body.dark .field-mediafinder.style-image-single .find-object .icon-container {
+    /* max-width: max-content; */
+    background: var(--drk-bg-color-b);
+    border-color: var(--drk-border-color);
+}
 body.dark .field-mediafinder.style-image-single .find-button {
     background: var(--drk-bg-color-c);
     border: 2px dotted var(--drk-border-color);
