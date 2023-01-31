@@ -4,7 +4,7 @@ Plugin for Winter CMS
 
 This plugin adds a dark theme switch to the user’s menu in backend of site. Now you can switch to dark theme for backend in one click.
 
-![switch](https://user-images.githubusercontent.com/61043464/145829071-8ca9fd28-7928-49a6-8ccc-f45b08467102.jpg)
+![switch](https://user-images.githubusercontent.com/61043464/215638267-6c700e9d-cf2b-483b-adff-de563603b06b.jpg)
 
 See [Plugin screenshot gallery](https://github.com/WebVPF/wn-darkbackend-plugin/issues/6)
 
