@@ -636,7 +636,8 @@ body.dark div[data-control="media-manager"] .media-list.list li.selected {
     background: var(--drk-bg-color-a) !important;
     border-color: #1F99DC;
 }
-body.dark:not(.no-select) div[data-control="media-manager"] .media-list.list li:hover {
+body.dark:not(.no-select) div[data-control="media-manager"] .media-list.list li:hover,
+body.dark:not(.no-select) div[data-control="media-manager"] .media-list.list li:focus {
     background: var(--drk-bg-color-c) !important;
     border-color: #1F99DC;
 }
@@ -710,6 +711,9 @@ body.dark div[data-control="media-manager"] .upload-progress {
 }
 body.dark div[data-control="media-manager"] .upload-progress h5 {
     color: var(--drk-color-a);
+}
+body.dark div[data-control="media-manager"] .upload-progress .progress-controls .controls a {
+    color: #31ac5f;
 }
 /* END - Media manager */
 
@@ -1974,36 +1978,37 @@ body.dark .permissioneditor table td.permission-name {
 }
 
 
-/* theme-selector-layout - /backend/cms/themes */
+/* theme-selector - /backend/cms/themes */
 body.dark .theme-selector-layout .theme-thumbnail {
-	background: #10161e;
+    background: #10161e;
 }
 body.dark .theme-selector-layout .layout-row.active .theme-thumbnail {
-	background: var(--drk-bg-color-c);
+    background: var(--drk-bg-color-c);
 }
 body.dark .theme-selector-layout .layout-row.active .thumbnail-container:after {
-	border-left-color: var(--drk-bg-color-c);
+    border-left-color: var(--drk-bg-color-c);
 }
 body.dark .theme-selector-layout .layout-row.links .theme-thumbnail {
-	border-bottom: 1px solid var(--drk-border-color);
+    border-color: var(--drk-border-color);
 }
 body.dark .theme-selector-layout .create-new-theme,
 body.dark .theme-selector-layout .find-more-themes {
-	background: #263baf;
-	color: var(--drk-color-a);
+    background: var(--drk-btn-bg-color);
+    color: #bbb;
 }
 body.dark .theme-selector-layout .create-new-theme:hover,
 body.dark .theme-selector-layout .find-more-themes:hover {
-	background: #283fc2;
+    background: var(--drk-hover-bg-color-b);
+    color: var(--drk-color-a);
 }
 body.dark .theme-selector-layout .theme-description h3 {
     color: var(--drk-color-a);
 }
 body.dark .theme-selector-layout .theme-description p.description {
-	color: var(--drk-color-a);
+    color: #bbb;
 }
 body.dark .theme-selector-layout .layout-row.links .theme-description {
-	border-bottom: 1px solid var(--drk-border-color);
+    border-color: var(--drk-border-color);
 }
 
 
