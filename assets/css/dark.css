@@ -1494,6 +1494,10 @@ body.dark div[data-control="sensitive"] a[data-toggle]:focus {
  *************     fancy layout     ***************
  **************************************************/
 
+body.dark.fancy-layout .form-tabless-fields,
+body.dark .fancy-layout .form-tabless-fields {
+    background-color: var(--drk-bg-color-fancy);
+}
 body.dark.fancy-layout .form-tabless-fields .form-control:focus,
 body.dark .fancy-layout .form-tabless-fields .form-control:focus {
     border-color: transparent;
@@ -1521,6 +1525,28 @@ body.dark.fancy-layout .control-tabs.primary-tabs>div>ul.nav-tabs,
 body.dark.fancy-layout.control-tabs.primary-tabs>div>ul.nav-tabs {
     background: transparent;
 }
+body.dark .fancy-layout .control-tabs.primary-tabs>div>ul.nav-tabs,
+body.dark .fancy-layout.control-tabs.primary-tabs>div>ul.nav-tabs {
+    background: var(--drk-bg-color-fancy);
+}
+body.dark .fancy-layout .control-tabs.secondary-tabs>div>ul.nav-tabs>li a,
+body.dark .fancy-layout.control-tabs.secondary-tabs>div>ul.nav-tabs>li a {
+    color: var(--drk-color-c);
+}
+body.dark .fancy-layout .control-tabs.secondary-tabs>div>ul.nav-tabs>li a:hover,
+body.dark .fancy-layout.control-tabs.secondary-tabs>div>ul.nav-tabs>li a:hover {
+    color: var(--drk-color-a);
+}
+body.dark .fancy-layout .control-tabs.secondary-tabs>div>ul.nav-tabs>li.active a,
+body.dark .fancy-layout.control-tabs.secondary-tabs>div>ul.nav-tabs>li.active a {
+    color: #fff;
+}
+body.dark.fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li a span.title,
+body.dark.fancy-layout.control-tabs.primary-tabs >div >ul.nav-tabs >li a span.title,
+body.dark .fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li a span.title,
+body.dark .fancy-layout.control-tabs.primary-tabs >div >ul.nav-tabs >li a span.title {
+    background: transparent;
+}
 body.dark.fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a span.title,
 body.dark.fancy-layout.control-tabs.primary-tabs >div >ul.nav-tabs >li.active a span.title,
 body.dark .fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a span.title,
@@ -1530,12 +1556,6 @@ body.dark .fancy-layout.control-tabs.primary-tabs >div >ul.nav-tabs >li.active a
 body.dark .fancy-layout *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.primary-tabs>div>ul.nav-tabs>li.active a span.title,
 body.dark *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.fancy-layout.primary-tabs>div>ul.nav-tabs>li.active a span.title {
     background: var(--drk-bg-color-a);
-}
-body.dark.fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li a span.title,
-body.dark.fancy-layout.control-tabs.primary-tabs >div >ul.nav-tabs >li a span.title,
-body.dark .fancy-layout .control-tabs.primary-tabs >div >ul.nav-tabs >li a span.title,
-body.dark .fancy-layout.control-tabs.primary-tabs >div >ul.nav-tabs >li a span.title {
-    background: transparent;
 }
 body.dark .fancy-layout *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.primary-tabs>div>ul.nav-tabs>li a span.title,
 body.dark *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.fancy-layout.primary-tabs>div>ul.nav-tabs>li a span.title,
@@ -1547,6 +1567,11 @@ body.dark.fancy-layout .form-buttons .btn,
 body.dark .fancy-layout .form-buttons .btn {
     border: 0;
     background: transparent;
+    color: var(--drk-color-b);
+}
+body.dark.fancy-layout .form-buttons .btn:hover,
+body.dark .fancy-layout .form-buttons .btn:hover {
+    color: var(--drk-color-a);
 }
 body.dark.fancy-layout .control-tabs.master-tabs>div>div.tabs-container>ul.nav-tabs>li.active a>span.title,
 body.dark.fancy-layout.control-tabs.master-tabs>div>div.tabs-container>ul.nav-tabs>li.active a>span.title,
@@ -1576,10 +1601,6 @@ body.dark .fancy-layout .control-tabs.master-tabs>div>div.tabs-container>ul.nav-
 body.dark .fancy-layout.control-tabs.master-tabs>div>div.tabs-container>ul.nav-tabs>li a>span.title:after {
     background-color: #346281;
     color: #b3b3b3;
-}
-body.dark.fancy-layout .form-tabless-fields,
-body.dark .fancy-layout .form-tabless-fields {
-    background-color: var(--drk-bg-color-fancy);
 }
 body.dark.fancy-layout .control-tabs.primary-tabs.master-area>div>ul.nav-tabs,
 body.dark.fancy-layout.control-tabs.primary-tabs.master-area>div>ul.nav-tabs,
