@@ -119,7 +119,7 @@ body.dark a {
 }
 body.dark a:hover,
 body.dark a:focus {
-    color: #51a6ec;
+    color: #008cff;
 }
 
 body.dark .close {
@@ -666,6 +666,10 @@ body.dark div[data-control="media-manager"] .media-list.tiles li .icon-container
     background: var(--drk-bg-color-c);
     border-color: var(--drk-border-color);
 }
+body.dark div[data-control="media-manager"] .media-list.tiles li.selected .icon-container,
+body.dark div[data-control="media-manager"] .media-list.tiles li.selected:hover .icon-container {
+    background: var(--drk-hover-bg-color-b) !important;
+}
 body.dark div[data-control="media-manager"] .media-list.tiles li[data-root] .icon-container {
     background: var(--drk-bg-color-a);
 }
@@ -834,7 +838,7 @@ body.dark .table >tfoot >tr.active >td,
 body.dark .table >thead >tr.active >th,
 body.dark .table >tbody >tr.active >th,
 body.dark .table >tfoot >tr.active >th {
-	background-color: #1e1600;
+    background-color: var(--drk-hover-bg-color-b);
 }
 body.dark table.table.data thead th.sort-asc.active,
 body.dark table.table.data thead th.sort-desc.active {
@@ -848,7 +852,7 @@ body.dark table.table.data thead th.active>a:after {
 }
 body.dark table.table.data tbody tr.active:nth-child(even) td,
 body.dark table.table.data tbody tr.active:nth-child(even) th {
-	background-color: #28200a;
+    background-color: #20324a;
 }
 
 body.dark .control-list p.no-data {
