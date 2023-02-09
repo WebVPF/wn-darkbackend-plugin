@@ -121,7 +121,9 @@ body.dark a:hover,
 body.dark a:focus {
     color: #008cff;
 }
-
+body.dark hr {
+    border-color: var(--drk-border-color);
+}
 body.dark .close {
     color: #fff;
 }
@@ -2038,6 +2040,11 @@ body.dark .theme-selector-layout .layout-row.links .theme-description {
 
 
 /* Tabs */
+body.dark .control-tabs>ul.nav-tabs>li a>span.title>span,
+body.dark .control-tabs>div>ul.nav-tabs>li a>span.title>span,
+body.dark .control-tabs>div>div>ul.nav-tabs>li a>span.title>span {
+    border-color: var(--drk-border-color);
+}
 body.dark .control-tabs.primary-tabs >ul.nav-tabs >li a >span.title:before,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li a >span.title:before,
 body.dark .control-tabs.primary-tabs >div >div >ul.nav-tabs >li a >span.title:before,
@@ -2103,7 +2110,7 @@ body.dark .control-tabs >div >div >ul.nav-tabs >li.active a:hover {
     color: var(--drk-color-a);
 }
 body.dark .control-tabs >ul.nav-tabs >li.active a:hover {
-    background: var(--drk-bg-color-a);
+    background: transparent;
 }
 body.dark .layout-cell.w-300.form-sidebar.control-scrollpanel {
     background-color: var(--drk-bg-color-c);
@@ -2141,7 +2148,7 @@ body.dark .control-tabs>div>ul.nav-tabs>li a:hover,
 body.dark .control-tabs>div>ul.nav-tabs>li a:focus,
 body.dark .control-tabs>div>div>ul.nav-tabs>li a:hover,
 body.dark .control-tabs>div>div>ul.nav-tabs>li a:focus {
-    color: var(--drk-color-a);
+    background: transparent;
 }
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title:before,
 body.dark .control-tabs.primary-tabs >div >ul.nav-tabs >li.active a >span.title:after {
