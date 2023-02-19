@@ -24,6 +24,28 @@ body.dark .flex-layout-column.wn-logo-transparent:not(.has-tabs):after,
 body.dark .layout-cell.wn-logo-transparent:after {
     background: transparent;
 }
+body.dark a {
+    color: #58a6ff;
+}
+body.dark a:hover,
+body.dark a:focus {
+    color: #008cff;
+}
+body.dark .text-muted {
+    color: var(--drk-color-b);
+}
+body.dark hr {
+    border-color: var(--drk-border-color);
+}
+body.dark .close {
+    color: #fff;
+}
+body.dark .close:hover,
+body.dark .close:focus {
+    color: #fff;
+}
+
+
 
 body.dark .nav>li>a:hover,
 body.dark .nav>li>a:focus {
@@ -31,7 +53,7 @@ body.dark .nav>li>a:focus {
     color: var(--drk-color-a);
 }
 
-
+/* mainmenu */
 body.dark nav#layout-mainmenu {
     background-color: var(--drk-bg-color-b);
 }
@@ -69,7 +91,7 @@ body.dark nav#layout-mainmenu ul li .mainmenu-accountmenu li:first-child a:activ
 body.dark nav#layout-mainmenu ul li .mainmenu-accountmenu li.divider {
     background-color: var(--drk-border-color);
 }
-
+/* END - mainmenu */
 
 /* sidenav */
 body.dark nav.layout-sidenav {
@@ -111,26 +133,9 @@ body.dark .control-assetlist ul li div.controls a.control {
 /* body.dark .layout-sidenav-container {
 	border-right: solid 1px var(--drk-border-color);
 } */
-/* End sidenav */
+/* END - sidenav */
 
 
-body.dark a {
-    color: #58a6ff;
-}
-body.dark a:hover,
-body.dark a:focus {
-    color: #008cff;
-}
-body.dark hr {
-    border-color: var(--drk-border-color);
-}
-body.dark .close {
-    color: #fff;
-}
-body.dark .close:hover,
-body.dark .close:focus {
-    color: #fff;
-}
 
 body.dark .table-striped.widget-calcs {
     color: #bbb;
@@ -143,9 +148,6 @@ body.dark .table-striped >tbody >tr:nth-child(odd) >td {
 }
 body.dark .table >tbody >tr >td {
     border-top-color: var(--drk-border-color);
-}
-body.dark .text-muted {
-    color: var(--drk-color-b);
 }
 body.dark input.form-control.icon.search.growable:focus,
 body.dark input.form-control[name="search"]:focus {
@@ -163,170 +165,9 @@ body.dark .clear-input-text:focus {
 }
 
 
-/* Buttons */
-body.dark .btn {
-    transition: .2s cubic-bezier(0.3, 0, 0.5, 1);
-    transition-property: color,background-color,border-color;
-}
-body.dark .btn-primary,
-body.dark a.btn-primary {
-    color: #1f6feb;
-    background: var(--drk-btn-bg-color);
-    border: 1px solid #024366;
-}
-body.dark .btn-primary:hover,
-body.dark .btn-primary:focus,
-body.dark .btn-primary:active,
-body.dark a.btn-primary:hover,
-body.dark a.btn-primary:focus,
-body.dark a.btn-primary:active {
-    background: #0654ca;
-    border-color: #064363;
-    color: #f0f6fc;
-}
-body.dark .btn-default,
-body.dark a.btn-default {
-    color: var(--drk-color-b);
-    background: var(--drk-btn-bg-color);
-    border: solid 1px var(--drk-border-color);
-}
-body.dark .btn-default.on,
-body.dark a.btn-default.on {
-    background: var(--drk-hover-bg-color-b);
-    color: var(--drk-color-a);
-}
-body.dark .btn-default:hover,
-body.dark .btn-default:focus,
-body.dark .btn-default:active,
-body.dark a.btn-default:hover,
-body.dark a.btn-default:focus,
-body.dark a.btn-default:active {
-    background-color: var(--drk-hover-bg-color-b);
-    color: var(--drk-color-a);
-}
-body.dark .btn-success,
-body.dark a.btn-success {
-    color: #2ea043;
-    background: var(--drk-btn-bg-color);
-    border: solid 1px #074a14;
-}
-body.dark .btn-success:hover,
-body.dark .btn-success:focus,
-body.dark .btn-success:active,
-body.dark a.btn-success:hover,
-body.dark a.btn-success:focus,
-body.dark a.btn-success:active {
-    color: var(--drk-color-a);
-    background-color: #2ea043;
-}
-body.dark .btn-info,
-body.dark a.btn-info {
-    color: #5bc0de;
-    background: var(--drk-btn-bg-color);
-    border: 1px solid #23444e;
-}
-body.dark .btn-info:hover,
-body.dark .btn-info:focus,
-body.dark .btn-info:active,
-body.dark a.btn-info:hover,
-body.dark a.btn-info:focus,
-body.dark a.btn-info:active {
-    background: #5bc0de;
-    color: #fff;
-}
-body.dark .btn-warning,
-body.dark a.btn-warning {
-    color: #f0ad4e;
-    background: var(--drk-btn-bg-color);
-    border: 1px solid #3e3b37;
-}
-body.dark .btn-warning:hover,
-body.dark .btn-warning:focus,
-body.dark .btn-warning:active,
-body.dark a.btn-warning:hover,
-body.dark a.btn-warning:focus,
-body.dark a.btn-warning:active {
-    color: #fff;
-    background-color: #f0ad4e;
-}
-body.dark .btn-danger,
-body.dark a.btn-danger {
-    color: var(--drk-color-danger);
-    background-color: var(--drk-btn-bg-color);
-    border-color: rgb(240 246 252 / 10%);
-    border: 1px solid #66322e;
-}
-body.dark .btn-danger:hover,
-body.dark .btn-danger:focus,
-body.dark .btn-danger:active,
-body.dark a.btn-danger:hover,
-body.dark a.btn-danger:focus,
-body.dark a.btn-danger:active {
-    color: #f0f6fc;
-    background-color: #da3633;
-    border-color: var(--drk-color-danger);
-    box-shadow: 0 0 transparent, 0 0 transparent;
-}
-body.dark .btn-link {
-    color: #58a6ff;
-    border: none;
-    background-color: transparent;
-}
-body.dark .btn-link:hover,
-body.dark .btn-link:focus,
-body.dark .btn-icon:hover:before {
-    color: #51a6ec;
-}
-body.dark .btn-secondary,
-body.dark a.btn-secondary {
-    color: var(--drk-color-a);
-    background-color: #0d1117;
-    border: 1px solid #242930;
-}
-body.dark .btn-secondary:hover,
-body.dark .btn-secondary:focus {
-    background-color: #30363d;
-}
-body.dark .btn-secondary[disabled] {
-    color: rgb(151 151 151);
-}
-body.dark .btn-secondary.disabled,
-body.dark .btn-secondary[disabled],
-body.dark .btn-secondary.disabled:hover,
-body.dark .btn-secondary[disabled]:hover,
-body.dark .btn-secondary.disabled:focus,
-body.dark .btn-secondary[disabled]:focus,
-body.dark .btn-secondary.disabled:active,
-body.dark .btn-secondary[disabled]:active,
-body.dark .btn-secondary.disabled.active,
-body.dark .btn-secondary[disabled].active {
-    background: #333942;
-}
-
-
-/* tooltip */
-body.dark .tooltip-inner {
-    background: #d1d1d1;
-    color: #000;
-}
-body.dark .tooltip.top .tooltip-arrow {
-    border-top-color: #d1d1d1;
-}
-body.dark .tooltip.bottom .tooltip-arrow {
-    border-bottom-color: #d1d1d1;
-}
-body.dark .tooltip.left .tooltip-arrow {
-    border-left-color: #d1d1d1;
-}
-body.dark .tooltip.right .tooltip-arrow {
-    border-right-color: #d1d1d1;
-}
-/* End tooltip */
-
-
 /* Dashboard */
 body.dark .report-widget {
-	background: var(--drk-bg-color-c);
+    background: var(--drk-bg-color-c);
 }
 body.dark .report-widget h3 {
 	color: var(--drk-color-b);
@@ -372,9 +213,6 @@ body.dark .report-widget a:not(.btn):focus {
 }
 body.dark .report-widget a:not(.btn).status-label.primary {
 	color: #fff;
-}
-body.dark .control-chart div.chart-legend table {
-	color: #bbb;
 }
 
 
@@ -553,14 +391,14 @@ body.dark div.control-componentlist div.components div.layout-cell > div:before,
 body.dark .component-list .components div.layout-cell > div span.name,
 body.dark div.control-componentlist div.components div.layout-cell > div span.name,
 body.dark div.control-componentlist div.components div.layout-cell > div a.remove {
-	color: var(--drk-color-a);
+    color: #AC885B;
 }
 body.dark .component-list .components div.layout-cell > div span.description,
 body.dark div.control-componentlist div.components div.layout-cell > div span.description {
-	color: var(--drk-color-c);
+    color: var(--drk-color-c);
 }
 body.dark div.control-componentlist div.components div.layout-cell > div span.alias {
-	color: #7fffd4;
+    color: #8F9D6A;
 }
 body.dark #cms-master-tabs .form-buttons .btn.btn-primary:hover {
 	background-color: transparent;
@@ -826,7 +664,7 @@ body.dark table.table.data thead th {
     border-bottom: 1px solid #21262d !important;
 }
 body.dark table.table.data .list-checkbox {
-	border-right: 1px solid #0180ff;
+    border-right-color: var(--drk-border-color);
 }
 body.dark .table >thead >tr >td.active,
 body.dark .table >tbody >tr >td.active,
@@ -884,6 +722,188 @@ body.dark .control-breadcrumb li:last-child {
 	color: #00bcd4;
 } */
 /* END - breadcrumb */
+
+
+
+/**************************************************
+ *************     Controls     *******************
+ **************************************************/
+
+/* Button */
+body.dark .btn {
+    transition: .2s cubic-bezier(0.3, 0, 0.5, 1);
+    transition-property: color,background-color,border-color;
+}
+body.dark .btn-primary,
+body.dark a.btn-primary {
+    color: #1f6feb;
+    background: var(--drk-btn-bg-color);
+    border: 1px solid #024366;
+}
+body.dark .btn-primary:hover,
+body.dark .btn-primary:focus,
+body.dark .btn-primary:active,
+body.dark a.btn-primary:hover,
+body.dark a.btn-primary:focus,
+body.dark a.btn-primary:active {
+    background: #0654ca;
+    border-color: #064363;
+    color: #f0f6fc;
+}
+body.dark .btn-default,
+body.dark a.btn-default {
+    color: var(--drk-color-b);
+    background: var(--drk-btn-bg-color);
+    border: solid 1px var(--drk-border-color);
+}
+body.dark .btn-default.on,
+body.dark a.btn-default.on {
+    background: var(--drk-hover-bg-color-b);
+    color: var(--drk-color-a);
+}
+body.dark .btn-default:hover,
+body.dark .btn-default:focus,
+body.dark .btn-default:active,
+body.dark a.btn-default:hover,
+body.dark a.btn-default:focus,
+body.dark a.btn-default:active {
+    background-color: var(--drk-hover-bg-color-b);
+    color: var(--drk-color-a);
+}
+body.dark .btn-success,
+body.dark a.btn-success {
+    color: #2ea043;
+    background: var(--drk-btn-bg-color);
+    border: solid 1px #074a14;
+}
+body.dark .btn-success:hover,
+body.dark .btn-success:focus,
+body.dark .btn-success:active,
+body.dark a.btn-success:hover,
+body.dark a.btn-success:focus,
+body.dark a.btn-success:active {
+    color: var(--drk-color-a);
+    background-color: #2ea043;
+}
+body.dark .btn-info,
+body.dark a.btn-info {
+    color: #5bc0de;
+    background: var(--drk-btn-bg-color);
+    border: 1px solid #23444e;
+}
+body.dark .btn-info:hover,
+body.dark .btn-info:focus,
+body.dark .btn-info:active,
+body.dark a.btn-info:hover,
+body.dark a.btn-info:focus,
+body.dark a.btn-info:active {
+    background: #5bc0de;
+    color: #fff;
+}
+body.dark .btn-warning,
+body.dark a.btn-warning {
+    color: #f0ad4e;
+    background: var(--drk-btn-bg-color);
+    border: 1px solid #3e3b37;
+}
+body.dark .btn-warning:hover,
+body.dark .btn-warning:focus,
+body.dark .btn-warning:active,
+body.dark a.btn-warning:hover,
+body.dark a.btn-warning:focus,
+body.dark a.btn-warning:active {
+    color: #fff;
+    background-color: #f0ad4e;
+}
+body.dark .btn-danger,
+body.dark a.btn-danger {
+    color: var(--drk-color-danger);
+    background-color: var(--drk-btn-bg-color);
+    border-color: rgb(240 246 252 / 10%);
+    border: 1px solid #66322e;
+}
+body.dark .btn-danger:hover,
+body.dark .btn-danger:focus,
+body.dark .btn-danger:active,
+body.dark a.btn-danger:hover,
+body.dark a.btn-danger:focus,
+body.dark a.btn-danger:active {
+    color: #f0f6fc;
+    background-color: #da3633;
+    border-color: var(--drk-color-danger);
+    box-shadow: 0 0 transparent, 0 0 transparent;
+}
+body.dark .btn-link {
+    color: #58a6ff;
+    border: none;
+    background-color: transparent;
+}
+body.dark .btn-link:hover,
+body.dark .btn-link:focus,
+body.dark .btn-icon:hover:before {
+    color: #51a6ec;
+}
+body.dark .btn-secondary,
+body.dark a.btn-secondary {
+    color: var(--drk-color-a);
+    background-color: #0d1117;
+    border: 1px solid #242930;
+}
+body.dark .btn-secondary:hover,
+body.dark .btn-secondary:focus {
+    background-color: #30363d;
+}
+body.dark .btn-secondary[disabled] {
+    color: rgb(151 151 151);
+}
+body.dark .btn-secondary.disabled,
+body.dark .btn-secondary[disabled],
+body.dark .btn-secondary.disabled:hover,
+body.dark .btn-secondary[disabled]:hover,
+body.dark .btn-secondary.disabled:focus,
+body.dark .btn-secondary[disabled]:focus,
+body.dark .btn-secondary.disabled:active,
+body.dark .btn-secondary[disabled]:active,
+body.dark .btn-secondary.disabled.active,
+body.dark .btn-secondary[disabled].active {
+    background: #333942;
+}
+/* END - Button */
+
+/* tooltip */
+body.dark .tooltip-inner {
+    background: #d1d1d1;
+    color: #000;
+}
+body.dark .tooltip.top .tooltip-arrow {
+    border-top-color: #d1d1d1;
+}
+body.dark .tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #d1d1d1;
+}
+body.dark .tooltip.left .tooltip-arrow {
+    border-left-color: #d1d1d1;
+}
+body.dark .tooltip.right .tooltip-arrow {
+    border-right-color: #d1d1d1;
+}
+/* End - tooltip */
+
+/* Pie chart */
+body.dark .control-chart div.chart-legend table {
+    color: var(--drk-color-b);
+}
+/* END - Pie chart */
+
+/* Line chart */
+body.dark .flot-tick-label.tickLabel {
+    color: var(--drk-color-b);
+}
+/* END - Line chart */
+
+/**************************************************
+ **********     END - Controls     ****************
+ **************************************************/
 
 
 
