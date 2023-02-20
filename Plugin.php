@@ -6,7 +6,8 @@ use Event;
 
 class Plugin extends PluginBase
 {
-    public function pluginDetails() {
+    public function pluginDetails(): array
+    {
         return [
             'name'        => 'webvpf.darkbackend::lang.plugin.name',
             'description' => 'webvpf.darkbackend::lang.plugin.desc',
@@ -16,7 +17,8 @@ class Plugin extends PluginBase
         ];
     }
 
-    public function boot() {
+    public function boot(): void
+    {
         if (!App::runningInBackend()) {
             return;
         }
