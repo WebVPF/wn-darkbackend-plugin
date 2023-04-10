@@ -422,6 +422,9 @@ body.dark ul.tree-path li.root a {
 body.dark table.name-value-list td {
 	color: #31ac5f;
 }
+body.dark div.panel.border-top {
+    border-top-color: var(--drk-border-color);
+}
 body.dark div.panel.border-left {
 	border-left-color: var(--drk-border-color);
 }
