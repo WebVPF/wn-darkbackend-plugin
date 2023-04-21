@@ -444,7 +444,6 @@ body.dark div[data-control="media-manager"] .list-container table.table.data tbo
     background: var(--drk-bg-color-c) !important;
 }
 body.dark div[data-control="media-manager"] .sidebar-image-placeholder {
-    box-sizing: content-box;
     background-image: -webkit-linear-gradient(45deg,var(--drk-bg-color-b) 25%,transparent 25%,transparent 75%,var(--drk-bg-color-b) 75%,var(--drk-bg-color-b)),
                       -webkit-linear-gradient(45deg,var(--drk-bg-color-b) 25%,transparent 25%,transparent 75%,var(--drk-bg-color-b) 75%,var(--drk-bg-color-b));
     background-position: 0 0,10px 10px;
