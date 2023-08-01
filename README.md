@@ -59,21 +59,11 @@ body.dark .myClassName {
 
 You can upload your logo for backend customization in **Customize back-end**
 
-```mermaid
-flowchart LR
-    Backend --> S[Settings]
-    S --> B[Customize back-end]
-    B --> Brand
-```
+Backend --> Settings --> Customize back-end --> Brand
 
 If your logo is not suitable for the dark theme, then you can upload a separate dark theme logo to the media and write the following styles in **Customize back-end**
 
-```mermaid
-flowchart LR
-    Backend --> S[Settings]
-    S --> B[Customize back-end]
-    B --> Styles
-```
+Backend --> Settings --> Customize back-end --> Styles
 
 ```css
 body.dark .wn-logo {
