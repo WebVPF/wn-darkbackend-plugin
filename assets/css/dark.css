@@ -1712,7 +1712,8 @@ body.dark *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.fancy-layou
     background: var(--drk-bg-color-a);
 }
 body.dark.fancy-layout *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.primary-tabs>div>ul.nav-tabs>li.active a span.title:before,
-body.dark *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.fancy-layout.primary-tabs>div>ul.nav-tabs>li.active a span.title:before, .fancy-layout *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.primary-tabs>div>ul.nav-tabs>li.active a span.title:after,
+body.dark *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.fancy-layout.primary-tabs>div>ul.nav-tabs>li.active a span.title:before,
+body.dark .fancy-layout *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.primary-tabs>div>ul.nav-tabs>li.active a span.title:after,
 body.dark *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.fancy-layout.primary-tabs>div>ul.nav-tabs>li.active a span.title:after {
     background: var(--drk-bg-color-a);
 }
