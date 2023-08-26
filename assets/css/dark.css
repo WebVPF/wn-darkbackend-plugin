@@ -1588,7 +1588,9 @@ body.dark *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.fancy-layou
 body.dark .fancy-layout *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.primary-tabs>div>ul.nav-tabs>li a span.title,
 body.dark *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.fancy-layout.primary-tabs>div>ul.nav-tabs>li a span.title,
 body.dark .fancy-layout *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.primary-tabs>div>ul.nav-tabs>li a span.title:before,
-body.dark *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.fancy-layout.primary-tabs>div>ul.nav-tabs>li a span.title:before, .fancy-layout *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.primary-tabs>div>ul.nav-tabs>li a span.title:after, *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.fancy-layout.primary-tabs>div>ul.nav-tabs>li a span.title:after {
+body.dark *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.fancy-layout.primary-tabs>div>ul.nav-tabs>li a span.title:before,
+body.dark .fancy-layout *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.primary-tabs>div>ul.nav-tabs>li a span.title:after,
+body.dark *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.fancy-layout.primary-tabs>div>ul.nav-tabs>li a span.title:after {
     background: var(--drk-bg-color-c);
 }
 body.dark.fancy-layout .form-buttons .btn,
