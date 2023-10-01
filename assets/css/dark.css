@@ -913,6 +913,10 @@ body.dark .flot-tick-label.tickLabel {
  *************     Forms     ******************
  **********************************************/
 
+body.dark input::placeholder,
+body.dark textarea::placeholder {
+    color: var(--drk-color-c);
+}
 body.dark label {
     color: var(--drk-color-a);
 }
