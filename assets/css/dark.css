@@ -2417,3 +2417,16 @@ body.dark #docs-content code {
 body.dark #docs-content pre code {
     background: #2c2f38;
 }
+
+/* Winter.Redirect */
+body.dark .row .report-widget {
+    box-shadow: none;
+}
+body.dark .row .report-widget h3 {
+    border-color: var(--drk-border-color);
+}
+body.dark .control-status-list>ul li .status-icon.info,
+body.dark .control-status-list>ul li .status-label.info {
+    background: #0dcaf0;
+    color: #000;
+}
