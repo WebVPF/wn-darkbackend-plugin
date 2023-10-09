@@ -205,11 +205,11 @@ body.dark .control-status-list >ul li .status-text.warning {
 	color: #ce9178;
 }
 body.dark .report-widget a:not(.btn) {
-	color: #00b0b3;
+	color: #6ea8fe;
 }
 body.dark .report-widget a:not(.btn):hover,
 body.dark .report-widget a:not(.btn):focus {
-    color: #00ffff;
+    color: #8bb9fe;
 }
 body.dark .report-widget a:not(.btn).status-label.primary {
 	color: #fff;
