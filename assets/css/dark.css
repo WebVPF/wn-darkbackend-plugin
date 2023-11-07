@@ -115,6 +115,9 @@ body.dark .sidenav-tree ul.top-level >li >div.group:before,
 body.dark .sidenav-tree ul.top-level >li >div.group:after {
     border-top-color: #13171d;
 }
+body.dark .sidenav-tree ul.top-level>li>ul li.active {
+    border-left-color: #3498db;
+}
 body.dark .sidenav-tree ul.top-level>li>ul li a span.header {
     color: var(--drk-color-a);
 }
@@ -2429,4 +2432,7 @@ body.dark .control-status-list>ul li .status-icon.info,
 body.dark .control-status-list>ul li .status-label.info {
     background: #0dcaf0;
     color: #000;
+}
+body.dark .status-code-info {
+    color: #0dcaf0;
 }
