@@ -471,12 +471,6 @@ body.dark div[data-control="media-manager"] .media-list.list li {
 body.dark div[data-control="media-manager"] .media-list.list li[data-root] {
     background: var(--drk-bg-color-a);
 }
-body.dark div[data-control="media-manager"] .media-list.list li[data-root] .icon-folder:before {
-    content: "\f3bf";
-}
-body.dark div[data-control="media-manager"] .media-list li[data-root][data-item-type=folder] i.icon-folder:before {
-    content: "\f3bf";
-}
 body.dark div[data-control="media-manager"] .media-list.list li.selected {
     background: var(--drk-bg-color-a) !important;
     border-color: #1F99DC;
@@ -543,7 +537,6 @@ body.dark div[data-control="media-manager"] table.table tr[data-item-type=folder
 	color: #ce9178;
 }
 body.dark div[data-control="media-manager"] table.table tr[data-item-type=folder][data-root] i.icon-folder:before {
-    content: "\f3bf";
     color: var(--drk-color-b);
 }
 body.dark div[data-control="media-manager"] table.table tr[data-item-type=folder].selected i.icon-folder {
