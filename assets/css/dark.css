@@ -446,6 +446,9 @@ body.dark div.panel.triangle-down:before {
 body.dark div[data-control="media-manager"] .list-container table.table.data tbody tr:not(.no-data):active td {
     background: var(--drk-bg-color-c) !important;
 }
+body.dark div[data-control="media-manager"] table.table.data tbody tr:not(.no-data).selected td {
+    background: #20324a !important;
+}
 body.dark div[data-control="media-manager"] .sidebar-image-placeholder {
     background-image: -webkit-linear-gradient(45deg,var(--drk-bg-color-b) 25%,transparent 25%,transparent 75%,var(--drk-bg-color-b) 75%,var(--drk-bg-color-b)),
                       -webkit-linear-gradient(45deg,var(--drk-bg-color-b) 25%,transparent 25%,transparent 75%,var(--drk-bg-color-b) 75%,var(--drk-bg-color-b));
