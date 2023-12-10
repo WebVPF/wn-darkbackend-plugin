@@ -2432,3 +2432,6 @@ body.dark .control-status-list>ul li .status-label.info {
 body.dark .status-code-info {
     color: #0dcaf0;
 }
+body.dark .sparkline {
+    background-color: var(--drk-bg-color-a);
+}
