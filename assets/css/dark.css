@@ -413,17 +413,49 @@ body.dark .control-componentlist.has-components {
 
 
 /* Media manager */
+body.dark [data-control="media-manager"] .control-toolbar {
+    border-bottom: solid 1px var(--drk-border-color);
+}
+body.dark [data-control="media-manager"] [data-control="left-sidebar"] {
+    background: var(--drk-bg-color-b);
+}
+body.dark [data-control="media-manager"] .panel.padding-less.border-bottom.triangle-down {
+    background: var(--drk-bg-color-b);
+}
+body.dark [data-control="media-manager"] [data-command="toggle-sidebar"].btn-icon:before {
+    color: var(--drk-color-c);
+}
+body.dark [data-control="media-manager"] [data-command="toggle-sidebar"].btn-icon:hover:before {
+    color: var(--drk-color-b);
+}
+body.dark [data-control="media-manager"] table.table.data tbody td {
+    color: var(--drk-color-b);
+}
+body.dark div.control-scrollpad>.scrollpad-scrollbar {
+    background-color: rgba(27, 69, 223, .1);
+}
+body.dark div.control-scrollpad>.scrollpad-scrollbar .drag-handle {
+    background-color: #3498db;
+}
 body.dark .whiteboard {
     background: var(--drk-bg-color-a);
 }
-body.dark .nav.selector-group li.active a {
-	color: #d16969;
+body.dark [data-control="media-manager"] .nav.selector-group li {
+    padding-right: 10px;
 }
-body.dark ul.tree-path li.root a {
+body.dark [data-control="media-manager"] .nav.selector-group li a {
+    color: var(--drk-color-c);
+    border-radius: 0 17px 17px 0;
+}
+body.dark [data-control="media-manager"] .nav.selector-group li.active {
+    border-left-color: #3498db;
+}
+body.dark [data-control="media-manager"] .nav.selector-group li.active a {
+    background: var(--drk-bg-color-c);
     color: var(--drk-color-a);
 }
-body.dark table.name-value-list td {
-	color: #31ac5f;
+body.dark ul.tree-path li.root a {
+    color: var(--drk-color-b);
 }
 body.dark div.panel.border-top {
     border-top-color: var(--drk-border-color);
@@ -438,7 +470,7 @@ body.dark div.panel.border-bottom {
 	border-bottom-color: var(--drk-border-color);
 }
 body.dark div.panel.triangle-down:after {
-	border-top-color: var(--drk-bg-color-a);
+	border-top-color: var(--drk-bg-color-b);
 }
 body.dark div.panel.triangle-down:before {
 	border-top-color: var(--drk-border-color);
@@ -549,7 +581,13 @@ body.dark div[data-control="media-manager"] table.table tr[data-item-type=folder
 	color: #00ffff;
 } */
 body.dark [data-control="preview-sidebar"] .panel [data-label="title"] {
-	color: #d16969;
+	color: #45c962;
+}
+body.dark table.name-value-list td {
+	color: var(--drk-color-c);
+}
+body.dark table.name-value-list th {
+    color: var(--drk-color-b);
 }
 body.dark div[data-control="media-manager"] .upload-progress {
     background: inherit;
@@ -1718,7 +1756,7 @@ body.dark *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.fancy-layou
 }
 body.dark.fancy-layout *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.primary-tabs>div>ul.nav-tabs>li.active a span.title:before,
 body.dark *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.fancy-layout.primary-tabs>div>ul.nav-tabs>li.active a span.title:before,
-body.dark .fancy-layout *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.primary-tabs>div>ul.nav-tabs>li.active a span.title:after,
+body.dark.fancy-layout *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.primary-tabs>div>ul.nav-tabs>li.active a span.title:after,
 body.dark *:not(.nested-form)>.form-widget>.layout-row>.control-tabs.fancy-layout.primary-tabs>div>ul.nav-tabs>li.active a span.title:after {
     background: var(--drk-bg-color-a);
 }
