@@ -967,11 +967,15 @@ body.dark .form-control:focus {
     border-color: #1f6feb;
     box-shadow: 0 0 0 3px #0c2d6b;
 }
+body.dark .form-control[readonly]:focus {
+    box-shadow: none;
+    border-color: var(--drk-border-color);
+}
 body.dark .form-control[disabled],
 body.dark .form-control[readonly],
 body.dark fieldset[disabled] .form-control {
-    background-color: #010409 !important;
-    color: var(--drk-color-a);
+    background-color: var(--drk-bg-color-c) !important;
+    color: var(--drk-color-b);
 }
 body.dark .form-control.icon {
     background-image: url('../images/bitmap-icons_dark.png');
