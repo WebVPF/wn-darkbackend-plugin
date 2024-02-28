@@ -2246,7 +2246,10 @@ body.dark .plugin-exception-beautifier .beautifier-raw-content {
 	background: var(--drk-bg-color-c);
 }
 body.dark .plugin-exception-beautifier .beautifier-class {
-	color: #7d8f5a;
+	color: #777;
+}
+body.dark .plugin-exception-beautifier .beautifier-stacktrace-line-function {
+    color: #bd93f9;
 }
 body.dark .plugin-exception-beautifier .beautifier-stacktrace-line:nth-child(odd) {
 	background-color: var(--drk-bg-color-b);
@@ -2258,10 +2261,13 @@ body.dark .plugin-exception-beautifier .beautifier-stacktrace-line-number {
 	color: var(--drk-color-a);
 }
 body.dark .plugin-exception-beautifier .beautifier-file {
-	color: #03a9f4;
+	color: #87cefa;
 }
 body.dark .plugin-exception-beautifier .beautifier-line-number {
-	color: red;
+	color: #8f8f8f;
+}
+body.dark .plugin-exception-beautifier .beautifier-function {
+    color: #a5c261;
 }
 body.dark .plugin-exception-beautifier .beautifier-toggle-stacktrace {
     background: var(--drk-hover-bg-color-b);
